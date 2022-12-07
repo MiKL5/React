@@ -9,4 +9,7 @@
 
 ## Les exercices
 
-[Mettre en place un web app](... "Metttre en place une web app")
+### Rappel de Javascript modèrne
+
+1. ['Let' et 'const'](rappel_JS_modern/01_Let_et_const/ "Let et Const") ······> Let, Const  
+1. ['Fonction classique vs fléchée'](rappel_JS_modern/02_FonctionsFléchéesFonctionsClassiques "fonction classique vs fléchée") ······> Fonction classique vs fonciton fléchée  
