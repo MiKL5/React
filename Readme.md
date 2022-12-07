@@ -9,4 +9,4 @@
 
 ## Les exercices
 
-[Mettre en place un web app]( "Metttre en place une web app")
+[Mettre en place un web app](... "Metttre en place une web app")
