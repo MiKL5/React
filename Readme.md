@@ -12,4 +12,5 @@
 ### Rappel de Javascript modèrne
 
 1. ['Let' et 'const'](rappel_JS_modern/01_Let_et_const/ "Let et Const") ······> Let, Const  
-1. ['Fonction classique vs fléchée'](rappel_JS_modern/02_FonctionsFléchéesFonctionsClassiques "fonction classique vs fléchée") ······> Fonction classique vs fonciton fléchée  
+1. [Fonction classique vs fléchée](rappel_JS_modern/02_FonctionsFléchéesFonctionsClassiques "fonction classique vs fléchée") ······> Fonction classique vs fonciton fléchée  
+1. ['Spread' et 'Rest'](rappel_JS_modern/03_Spread_Et_Rest "Spread et Rest") ······> 'Spread' et 'Rest'  
