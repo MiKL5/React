@@ -1,18 +1,18 @@
 // Scope
 
-// function foo(){
-//     var x = 5;
-//     console.log(x);
-// }
-// foo();
+function foo(){
+    var x = 5;
+    console.log(x);
+}
+foo();
 
-// function foo() {
-//     if(true){
-//         var x = 5;
-//     }
-//     console.log(x);
-// }
-// foo(); // is not defined car la portée s'arrête au bloc
+function foo() {
+    if(true){
+        var x = 5;
+    }
+    console.log(x);
+}
+foo(); // is not defined car la portée s'arrête au bloc
 
 
 // Redéclaration
