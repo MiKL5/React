@@ -34,3 +34,6 @@ function add(...args){
 }
 console.log(add(2, 2, 20, 50, 900));
 ```
+
+>NOTA :  
+C'est la même syntaxe, mais il font des choses très différentes.  
