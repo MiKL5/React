@@ -15,5 +15,7 @@
 1. [Fonction classique vs fléchée](rappel_JS_modern/02_FonctionsFléchéesFonctionsClassiques "fonction classique vs fléchée") ······> Fonction classique vs fonciton fléchée  
 1. ['Spread' et 'Rest'](rappel_JS_modern/03_Spread_Et_Rest "'Spread' et 'Rest'") ······> 'Spread' et 'Rest'  
 1. [Fonction pure](rappel_JS_modern\04_fonctions_purest "Fonction pure") ······> 'Spread' et 'Rest'  
-1. [Fonction d'ordre supérieur](rappel_JS_modern\05_fonctions_d_ordre_superieur "Fonction d'ordre supérieur") ······> Fonction d'ordre supéreiur ***(soon)***  
+1. [Fonction d'ordre supérieur](rappel_JS_modern\05_fonctions_d_ordre_superieur "Fonction d'ordre supérieur") ······> Fonction d'ordre supéreiur  
+1. [Fonction d'ordre supérieur et tableau](rappel_JS_modern\05_fonctions_d_ordre_superieur_et_tableau "Fonction d'ordre supérieur") ······> Fonction d'ordre supéreiur et tableau ***(soon)***  
+
 
