@@ -1,32 +1,30 @@
-# Fonction pure vs impure
-## Fonction pure
+# Fonction d'ordre supérieur
 
-Elle retourne toujours la même chose, si je lui passe les mêmes arguments. Elle n'a pas d'effet à l'extérieur. Donc tout ce passe dans cette dernière.
-
+>Cette fonction prend en paramètre une autre fonction et / ou en retourne une autre.  
+Cela permet de mettre au même endroit des action ou de la logique un peu plus complexe et surtout de pourvoir effectué des actions multiples avec une seule et même fonction.  
 
 ```js
-const add2 = (a,b) => a + b;
-console.log((add2(2, 2)));
-console.log((add2(2, 2)));
-console.log((add2(2, 2)));
-console.log((add2(2, 2)));
-console.log((add2(2, 2)));
-console.log((add2(2, 2)));
+// fonction d'ordre supérieur (en l'ocurence 'supArr')
+const rawArr = [5,6,5889,52,415,120]
+function supArr(arr, fn){ 
+    const newArr = [];
+    for (let i = 0; i < arr.length; i++) {
+        if (fn(arr[i])) {
+            newArr.push(arr[i]);
+        }
+    }
+}
+const arrSup100 = supArr(rawArr, (item) => {
+    if(item > 100){
+        return item;
+    }
+})
+console.log(arrSup100);
+const arrSup10 = supArr(rawArr, (item) => {
+    if(item > 10){
+        return item;
+    }
+})
+console.log(arrSup10);
 ```
-Il n'y a pas d'environnement externe et elle retourne toujours le même resultat.
-___
-
-## Fonction impure
-```js
-let x = 2; // environnement extérieur
-const add1 => x += yield;
-console.log(add1(2)); //  4
-console.log(add1(2)); //  6
-console.log(add1(2)); //  8
-console.log(add1(2)); // 10
-console.log(add1(2)); // 12
-```
-La fonction ci-avant a effet à l'extérieur (car x prend +y) et ne retourne pas la même chose car elle ajoute 2 à chaque itération. C'est une fonction impure.
-
-> NOTA  
-Les fonctions pures sont un grand pilier de la programmation fonctionnelle
+>La pregrammation fonctionnelle apporte beaucoup de possibilités (<, <=, =, >=, >, 'true', 'false', les types, etc).

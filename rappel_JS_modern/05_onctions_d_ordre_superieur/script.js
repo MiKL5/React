@@ -1,19 +1,34 @@
-let x = 2; // environnement extérieur
-const add1 => x += yield;
-console.log(add1(2)); //  4
-console.log(add1(2)); //  6
-console.log(add1(2)); //  8
-console.log(add1(2)); // 10
-console.log(add1(2)); // 12
-// la fonction ci-avant a effet à l'extérieur (car x prend +y) et ne retourne pas la même chose car elle ajoute 2 à chaque itération. C'est une fonction impure.
+const rawArr = [5,6,5889,52,415,120]
+// Pour mettre dans un autre tableau les nombres supérieurs à 100 en Javascript procédural, on procède comme suit :
+const newArr = [];
+for(let i = 0; i < rawarr.length; i++) {
+    if(rawArr[i] > 100) {
+        newArr.push(rawArr[i]);
+    }
+}
+console.log(newArr);
+// Mais ce n'est pas aisément réutilisable.
 
-
-// ci après la fonctiin pure
-const add2 = (a,b) => a + b;
-console.log((add2(2, 2)));
-console.log((add2(2, 2)));
-console.log((add2(2, 2)));
-console.log((add2(2, 2)));
-console.log((add2(2, 2)));
-console.log((add2(2, 2)));
-// il n'y a pas d'environnement externe et elle retourne toujours le même resultat.
+// En programmation fonctionnelle
+// fonction d'ordre supérieur (en l'ocurence 'supArr') car elle a pour paramètre une fonction  
+const rawArr1 = [5,6,5889,52,415,120]
+function supArr(arr, fn){ 
+    const newArr = [];
+    for (let i = 0; i < arr.length; i++) {
+        if (fn(arr[i])) {
+            newArr.push(arr[i]);
+        }
+    }
+}
+const arrSup100 = supArr(rawArr1, (item) => {
+    if(item > 100){
+        return item;
+    }
+})
+console.log(arrSup100);
+const arrSup10 = supArr(rawArr1, (item) => {
+    if(item > 10){
+        return item;
+    }
+})
+console.log(arrSup10);
