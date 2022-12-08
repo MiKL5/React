@@ -21,4 +21,4 @@
 
 ### Les bases de React  
 
-8. [Mettre en place une web app](bases_react\set_up_a_web_app "Mettre en place une web app") ······> Mettre en place une web app ***(soon)***  
+8. [Mettre en place une web app](bases_react\01_set_up_a_web_app "Mettre en place une web app") ······> Mettre en place une web app ***(soon)***  
