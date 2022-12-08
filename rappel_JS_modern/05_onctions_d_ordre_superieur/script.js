@@ -32,3 +32,4 @@ const arrSup10 = supArr(rawArr1, (item) => {
     }
 })
 console.log(arrSup10);
+// 'fn' est rappelée par un fonction d'ordre supérieur, c'est une fonction call back.

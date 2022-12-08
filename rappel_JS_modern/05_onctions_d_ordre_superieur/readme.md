@@ -27,4 +27,5 @@ const arrSup10 = supArr(rawArr, (item) => {
 })
 console.log(arrSup10);
 ```
->La pregrammation fonctionnelle apporte beaucoup de possibilités (<, <=, =, >=, >, 'true', 'false', les types, etc).
+>La pregrammation fonctionnelle apporte beaucoup de possibilités (<, <=, =, >=, >, 'true', 'false', les types, etc).  
+'fn' est une fonction call back car elle est appelée par une fonction d'ordre supérieur.
