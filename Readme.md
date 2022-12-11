@@ -22,5 +22,5 @@
 ### Les bases de React  
 
 8. [Mettre en place une web app](bases_react\01_set_up_a_web_app "Mettre en place une web app") ······> Mettre en place une web app ***(soon)***  
-8. [Explications](bases_react\02_explanations\Readme.md "Explications") ······> Mettre en place une web app ***(soon)***  
+8. [Explications](bases_react\02_explanations\Readme.md "Explications") ······> Mettre en place une web app  
 8. [C'est quoi JSX ?](bases_react\03_c_est_quoi_JSX "Qu'est-ce que JSX ?") ······> Mettre en place une web app ***(soon)***  
