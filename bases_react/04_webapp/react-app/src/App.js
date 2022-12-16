@@ -1,5 +1,4 @@
 import {useState} from 'react'
-import Item from './Item'
 
 function App() {
   // console.log(useState);
@@ -9,9 +8,10 @@ function App() {
 
   return (
   <div className="app">
-    <h1>Hello react</h1>
+
+    <h1>Hello state : {monState}</h1>
     <Item />
-    {monState}
+    <button>Change state</button>
   </div>
   );
 }
