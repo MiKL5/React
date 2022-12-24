@@ -1,4 +1,4 @@
-# Learning React <img align="right" src="src/images/React-icon.svg" alt="React" title="framework React" widht="auto" height="64px"> 
+# **Learning React** <img align="right" src="src/images/React-icon.svg" alt="React" title="framework React" widht="auto" height="64px"> 
 > ### C'est quoi React  
 > Cette librairie est très populaire et à prix tellement d'ampleur qu'elle est devenue aussi importante qu'un framework.  Une librairie résout une problèmatique alorrs qu'un framework est un cadre de travail complet qui généralement résout plusieurs problèmes. C'est la librarie Javascript le plus populaire.  
 > React permet de créer des applications Web.
