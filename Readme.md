@@ -27,5 +27,5 @@
 11. Créer un composant  
 12. Découverte de useState ······> Les données d'un composant  
 13. Modifier le state ······> Modifier les données d'un composant  
-14. Les 'props'
+14. Les 'props' ······> Les propriétés  
 ## **Projet** ***(soosn)***  
