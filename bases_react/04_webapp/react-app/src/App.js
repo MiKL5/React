@@ -6,18 +6,18 @@ function App() {
   // console.log(useState);
   console.log("MISE À JOUR !"); // Des que le state d'un composant change, le state est réexécuté
 
-  const [monState, setMonState] = useState(10);
-  // console.log(MonState);
-  // console.log(setMonState);
+  const [myState, setMyState] = useState(10);
+  console.log(myState);
+  console.log(setMyState);
   const modifyState = () => {
-    setMonState(20);
+    setMyState(20);
   }
  // Les évênements en lower camel case
   return (
   <div className="app">
-    <h1>Hello state : {monState}</h1>
+    <h1>Hello state : {myState}</h1>
     <button onCLick={modifyState}>Change state</button>
-    <Item />
+    <Item txt={"Hello Item"} />
   </div>
   );
 }
