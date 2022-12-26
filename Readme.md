@@ -7,9 +7,9 @@
 > C'est un site avec beacoup de fonctionnalités qui nous donnent l'impression d'utiliser une application mobile, car il n'y a pas beaucoup de temps de chargment entre les pages vu que tout ce charge dés le début.
 
 
-## Les exercices
+## **Les exercices**
 
-### Rappel de Javascript modèrne
+### **Rappel de Javascript modèrne**
 
 1. ['Let' et 'const'](rappel_JS_modern/01_Let_et_const "Let et Const") ······> Let, Const  
 1. [Fonction classique vs fléchée](rappel_JS_modern/02_FonctionsFléchéesFonctionsClassiques "fonction classique vs fléchée") ······> Fonction classique vs fonciton fléchée  
@@ -19,8 +19,13 @@
 1. [Fonction d'ordre supérieur et tableau](rappel_JS_modern/06_fonctions_d_ordre_superieur_et_tableau "Fonction d'ordre supérieur") ······> Fonction d'ordre supéreiur et tableau  
 1. [Destructuring](rappel_JS_modern/07_destructuring "Destructuring") ······> Fonction d'ordre supéreiur et tableau  
 
-### Les bases de React  
+### **Les bases de React**  
 
 8. [Mettre en place une web app](bases_react/01_set_up_a_web_app "Mettre en place une web app") ······> Mettre en place une web app  
 8. [Explications](bases_react/02_explanations/Readme.md "Explications") ······> Mettre en place une web app  
-8. [C'est quoi JSX ?](bases_react/03_c_est_quoi_JSX "Qu'est-ce que JSX ?") ······> Mettre en place une web app ***(soon)***  
+8. [C'est quoi JSX ?](bases_react/03_c_est_quoi_JSX "Qu'est-ce que JSX ?") ······> Mettre en place une web app  
+11. Créer un composant  
+12. Découverte de useState  
+13. Modifier le state  
+
+## **Projet** ***(soosn)***  
