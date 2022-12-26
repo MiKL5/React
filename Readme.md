@@ -25,7 +25,7 @@
 8. [Explications](bases_react/02_explanations/Readme.md "Explications") ······> Mettre en place une web app  
 8. [C'est quoi JSX ?](bases_react/03_c_est_quoi_JSX "Qu'est-ce que JSX ?") ······> Mettre en place une web app  
 11. Créer un composant  
-12. Découverte de useState  
-13. Modifier le state  
-
+12. Découverte de useState ······> Les données d'un composant  
+13. Modifier le state ······> Modifier les données d'un composant  
+14. Les 'props'
 ## **Projet** ***(soosn)***  
