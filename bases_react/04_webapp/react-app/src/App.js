@@ -4,7 +4,6 @@ import Item from './Item'
 
 function App() {
   // console.log(useState);
-
   console.log("MISE À JOUR !"); // Des que le state d'un composant change, le state est réexécuté
 
   const [monState, setMonState] = useState(10);
