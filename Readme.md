@@ -24,15 +24,16 @@
 8. [Mettre en place une web app](bases_react/01_set_up_a_web_app "Mettre en place une web app") ······> Mettre en place une web app  
 8. [Explications](bases_react/02_explanations/Readme.md "Explications") ······> Mettre en place une web app  
 8. [C'est quoi JSX ?](bases_react/03_c_est_quoi_JSX "Qu'est-ce que JSX ?") ······> Mettre en place une web app  
-11. Créer un composant  
-12. Découverte de useState ······> Les données d'un composant  
-13. Modifier le state ······> Modifier les données d'un composant  
-14. Les 'props' ······> Les propriétés  
-15. Remonter le state
-16. Utiliser le CSS
-17. Utiliser les images
-18. Utiliser les inputs
-19. Créer un rendu conditionnel avec 'if'
+8.  Créer un composant  
+8. Découverte de useState ······> Les données d'un composant  
+8. Modifier le state ······> Modifier les données d'un composant  
+8. Les 'props' ······> Les propriétés  
+8. Remonter le state  
+8. Utiliser le CSS  
+8. Utiliser les images  
+8. Utiliser les inputs  
+8. Rendu conditionnel avec 'if'  
+8. Rendu conditionnel avec l'opération ternaire  
 
 ## **Exercices** **_(soon)_**
 
