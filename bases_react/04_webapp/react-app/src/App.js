@@ -9,17 +9,15 @@ function App() {
   const [myState, setMyState] = useState(10);
   console.log(myState);
   console.log(setMyState);
-  const modifyState = () => {
-    setMyState(20);
+  const modifyState = (data) => {
+    // console.log(data);
+    setMyState(data);
   }
  // Les évênements en lower camel case
   return (
   <div className="app">
     <h1>Hello state : {myState}</h1>
-    <button onCLick={modifyState}>Change state</button>
-    <Item num={myState} />
-    <Item txt={"Hello Italy"} />
-    <Item txt={"Hello Japan"} />
+    <Item func={modifyState} />
   </div>
   );
 }
@@ -27,3 +25,5 @@ function App() {
 export default App;
 // le composant se met à jour quend son état change et quand les proporétés qu'on lui passe changes
 // dans item num, txt, ou ce qui précéde = est la propriété d'Item
+// remonter le state se fait de haut en bas
+// dans {myState} ou {modifyState}, je peux faire passer des chiffres, des caractères et des fonctions

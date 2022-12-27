@@ -1,7 +1,13 @@
+import { useState } from "react";
+
 function Item(props) {
+    const [itemState, setItemState] = useState('Item State !')
     console.log("Mise à jour"); // s'il y a un bogue, il ne se met pas à jour
     return (
-        <h1>{props.num}</h1>
+        <div>
+            <h1>{props.num}</h1>
+            <button onCLick={() => props.func(itemState)}>Change state</button>
+        </div>
     )
 }
 export default Item;
@@ -13,4 +19,4 @@ export default Item;
 // function Item({number}) {
 //    return <h1>{number}</h1>
 // }
-// Le déstructuring n'est pas toujours la solution
+// Le déstructuring n'est pas toujours la solution surtout pour les débutants
