@@ -1,6 +1,6 @@
 // Le state c'est les donn'es d'un composant.
 import {useState} from 'react'
-import Item from './Item'
+import Item from './component/item/Item'
 
 function App() {
   // console.log(useState);

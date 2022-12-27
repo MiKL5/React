@@ -1,0 +1,10 @@
+/* permet de séparé le style de chanque composant */
+/* donc, déviter les gros fichiers css */
+/* c'est plus clair, aussi pour ceux qui passe aprés moi */
+h3{
+    color: aquamarine;
+    font-size: 50px;
+}
+.title4{
+    color: darkorange;
+}
