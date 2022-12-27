@@ -4,21 +4,33 @@ import Item from './component/item/Item'
 
 function App() {
 
-  const [inputData, setInputData] = useState();
-
-  const changeInput = (e) => {
-    // console.log(e);
-    setInputData(e)
+  const [toggle, setToogle] = useState(true);
+  const changeState = () => {
+    setToggle(!toggle)
   }
-  console.log(inputData); // pour voir si ça fonctionne
+  let toggleContenu;
 
- // Les évênements en lower camel case
-  return (
-  <div className="app">
-    <h1>Hello App</h1>
-    <input type="text" value={inputData} onInput={e => changeInput(e.target.value)} />
-  </div>
-  );
+  if(toogle){
+    toggleContent = <h1>State true</h1>
+  } else {
+    toggleContent = <h1>State false</h1>
+  } // ça reduit la taille du if d'en dessous, est c'est plus clair si y a bcp de lignes dans un if
+
+  if(toggle){ // c'est comme if (toggle === true)
+    return (
+      <div className="app">
+        {toggleContent}
+        <button onClick={changeState}>Change state</button>
+      </div>
+    );
+  } else if(toggle === false) {
+    return (
+      <div className="app">
+        {toggleContent}
+        <button onClick={changeState}>Change state</button>
+      </div>
+    );
+  }
 }
 
 export default App;
