@@ -28,4 +28,12 @@
 12. Découverte de useState ······> Les données d'un composant  
 13. Modifier le state ······> Modifier les données d'un composant  
 14. Les 'props' ······> Les propriétés  
-## **Projet** ***(soosn)***  
+15. Remonter le state
+16. Utiliser le CSS
+17. Utiliser les images
+18. Utiliser les inputs
+19. Créer un rendu conditionnel avec 'if'
+
+## **Exercices** **_(soon)_**
+
+## **Projet** **_(soosn)_**  
