@@ -17,9 +17,13 @@ function App() {
   <div className="app">
     <h1>Hello state : {myState}</h1>
     <button onCLick={modifyState}>Change state</button>
-    <Item txt={"Hello Item"} />
+    <Item num={myState} />
+    <Item txt={"Hello Italy"} />
+    <Item txt={"Hello Japan"} />
   </div>
   );
 }
 
 export default App;
+// le composant se met à jour quend son état change et quand les proporétés qu'on lui passe changes
+// dans item num, txt, ou ce qui précéde = est la propriété d'Item
