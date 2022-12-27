@@ -35,6 +35,7 @@
 8. Rendu conditionnel avec 'if'  
 8. Rendu conditionnel avec l'opération ternaire  
 8. Rendu conditionnel avec un toggle de class et de css
+8. Créer des listes
 
 ## **Exercices** **_(soon)_**
 
