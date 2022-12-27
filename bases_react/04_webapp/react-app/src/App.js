@@ -3,21 +3,20 @@ import {useState} from 'react'
 import Item from './component/item/Item'
 
 function App() {
-  // console.log(useState);
-  console.log("MISE À JOUR !"); // Des que le state d'un composant change, le state est réexécuté
 
-  const [myState, setMyState] = useState(10);
-  console.log(myState);
-  console.log(setMyState);
-  const modifyState = (data) => {
-    // console.log(data);
-    setMyState(data);
+  const [inputData, setInputData] = useState();
+
+  const changeInput = (e) => {
+    // console.log(e);
+    setInputData(e)
   }
+  console.log(inputData); // pour voir si ça fonctionne
+
  // Les évênements en lower camel case
   return (
   <div className="app">
-    <h1>Hello state : {myState}</h1>
-    <Item func={modifyState} />
+    <h1>Hello App</h1>
+    <input type="text" value={inputData} onInput={e => changeInput(e.target.value)} />
   </div>
   );
 }
@@ -27,3 +26,4 @@ export default App;
 // dans item num, txt, ou ce qui précéde = est la propriété d'Item
 // remonter le state se fait de haut en bas
 // dans {myState} ou {modifyState}, je peux faire passer des chiffres, des caractères et des fonctions
+// two ways data binding car la 1re façon la value et la 2de l'évênement pour lier les données
