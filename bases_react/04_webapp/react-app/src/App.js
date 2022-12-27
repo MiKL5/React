@@ -4,33 +4,28 @@ import Item from './component/item/Item'
 
 function App() {
 
-  const [toggle, setToogle] = useState(true);
+  const [toggle, setToogle] = useState(false);
   const changeState = () => {
     setToggle(!toggle)
   }
-  let toggleContenu;
 
-  if(toogle){
-    toggleContent = <h1>State true</h1>
-  } else {
-    toggleContent = <h1>State false</h1>
-  } // ça reduit la taille du if d'en dessous, est c'est plus clair si y a bcp de lignes dans un if
+//    return (
+//      <div className="app">
 
-  if(toggle){ // c'est comme if (toggle === true)
+//        {toggle ? <h1>State true</h1> : <h1>State false</h1>}
+
+//        <button onClick={changeState}>Change state</button>
+//      </div>
+//    );
+    // le short circuit operator affiche uniqument si c'est true
     return (
       <div className="app">
-        {toggleContent}
+
+        {toggle && <h1>State true</h1>}
+
         <button onClick={changeState}>Change state</button>
       </div>
     );
-  } else if(toggle === false) {
-    return (
-      <div className="app">
-        {toggleContent}
-        <button onClick={changeState}>Change state</button>
-      </div>
-    );
-  }
 }
 
 export default App;
@@ -39,3 +34,4 @@ export default App;
 // remonter le state se fait de haut en bas
 // dans {myState} ou {modifyState}, je peux faire passer des chiffres, des caractères et des fonctions
 // two ways data binding car la 1re façon la value et la 2de l'évênement pour lier les données
+// {toggle ? <h1>State true</h1> : <h1>State false</h1>} car c'est directemnt une valeur
