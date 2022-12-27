@@ -4,24 +4,16 @@ import Item from './component/item/Item'
 
 function App() {
 
-  const [toggle, setToogle] = useState(false);
+  const [toggle, setToogle] = useState(true);
   const changeState = () => {
     setToggle(!toggle)
   }
 
-//    return (
-//      <div className="app">
-
-//        {toggle ? <h1>State true</h1> : <h1>State false</h1>}
-
-//        <button onClick={changeState}>Change state</button>
-//      </div>
-//    );
-    // le short circuit operator affiche uniqument si c'est true
     return (
       <div className="app">
 
-        {toggle && <h1>State true</h1>}
+        <div className={toggle ? "box-animated" : "box"}></div>
+        {/* <div className="box" style={{backgroundColor: toggle ? "yellowgreen" : "#00DCFF"}}></div> */}
 
         <button onClick={changeState}>Change state</button>
       </div>
