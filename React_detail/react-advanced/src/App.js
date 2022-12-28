@@ -1,23 +1,20 @@
-import logo from './logo.svg';
+import {useState, useEffect} from 'react'
 import './App.css';
 
 function App() {
+  const [dataComponent, setDataComponent] = useState(1);
+  const [dataComponent1, setDataComponent1] = useState(1);
+  const [dataComponent2, setDataComponent2] = useState(1);
+  useEffect(() => {
+    console.log("dataComponent changed");
+  }, [dataComponent]) // le tableau est à surveiller s'il est vide ; il n'est pas surveiller
+  const changeState = () => {
+    setDataComponent2(dataComponent2 + 1);
+  }
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Le state est {dataComponent2}</h1>
+      <button onClick={changeState}>Change State</button>
     </div>
   );
 }
