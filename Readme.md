@@ -39,7 +39,7 @@
 
 ### **React dans le détail**
 
-23. [Les 2 règles des hooks](React_detail\24_règlesDesHooks\readme.md "Les règles des hooks")
+23. [Les 2 règles des hooks](React_detail/24_règlesDesHooks/readme.md "Les règles des hooks")
 23. Le hook 'useEffect' **_(soosn)_**  
 ## **Projet**  
 [To-do list](projects/toDoList "To-do list")  
