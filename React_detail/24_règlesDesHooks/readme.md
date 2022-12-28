@@ -12,3 +12,7 @@ Deux règles :
 2. Il faut seulement les appeler dans des composants de type fonction.
     * ne jamais utiliser dans une fonction qui n'est pas un composnat React,  
         * La présence de la majuscule fait un composant React  
+
+___
+>NOTA :  
+>Tous les hook sont précédé du mot clé *use*
