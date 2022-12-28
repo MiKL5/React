@@ -8,7 +8,7 @@ Elle permet :
 
 Pour l'utiliser :
 * Il faut que le terminal soit dans le dossier de l'application React :  
-![chemin](../../src\sceenshots\pathReactWebapp.png "chemin du projet")
+![chemin](../../src/sceenshots/pathReactWebapp.png "chemin du projet")
 * puis entrer le commande pour que React fonctionne
 ```powershell
 npm install
@@ -19,7 +19,7 @@ npm start
 ```
 
 Vous aurez une fenêtre semblable à ceci :  
-![aperçu](../../src\sceenshots\overview.png "aperçu du projet")
+![aperçu](../../src/sceenshots/overview.png "aperçu du projet")
 
 ___
 >NOTA :  
