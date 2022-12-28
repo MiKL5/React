@@ -3,6 +3,8 @@ import './App.css';
 
 function App() {
   const [timer, setTimer] = useState(1)
+  const [toggle, setToggle] = useState(false);
+
   useEffect(() => {
     const intervalID=  setInterval(() => {
       setTimer(timer => timer + 1)
@@ -12,9 +14,16 @@ function App() {
       clearInterval(intervalID);
     }
   }, [])
+
+  const toggleFunc = () => {
+    setToggle(!toggle)
+  }
+
   return (
     <div className="App">      
       <h1>{timer}</h1>
+      <button onClick={toggleFunc}>Toggle</button>
+      <h2>{toggle ? "True" : "False"}</h2>
     </div>
   );
 }
