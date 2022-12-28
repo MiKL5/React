@@ -38,4 +38,4 @@
 8. Créer des listes
 
 ## **Projet**  
-23. [To-do list](projects\toDoList "To-do list") **_(soosn)_**
+23. [To-do list](projects/toDoList "To-do list") **_(soosn)_**
