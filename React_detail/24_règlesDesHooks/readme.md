@@ -15,4 +15,4 @@ Deux règles :
 
 ___
 >NOTA :  
->Tous les hook sont précédé du mot clé *use*
+>Tous les hook sont précédés du mot clé *use*
