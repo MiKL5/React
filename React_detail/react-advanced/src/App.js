@@ -2,22 +2,15 @@ import {useState, useEffect} from 'react' // sert svt à faire appel à une api
 import './App.css';
 
 function App() {
-  const [dataImg, setDataImg] = useState();
+  const [timer, setTimer] = useState(1)
   useEffect(() => {
-    fetch('https://api.thecatapi.com/v1/images/search')
-    .then(response => {
-      console.log(response);
-      return response.json;
-    })
-    .then(data => {
-      console.log(data);
-      setDataImg(data[0].url);
-    })
+    setInterval(() => {
+      setTimer(timer => timer + 1)
+    }, 1000)
   }, [])
-
-  return (// afficher quand l'image est reçu pour éviter le lien cassé
+  return (
     <div className="App">      
-      {dataImg && <img src={dataImg} alt="Is it a cat?" style={{width: "500px"}}/>}
+      <h1>{timer}</h1>
     </div>
   );
 }
