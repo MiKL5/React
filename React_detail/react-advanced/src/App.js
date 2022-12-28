@@ -1,20 +1,23 @@
-import {useState, useEffect} from 'react'
+import {useState, useEffect} from 'react' // sert svt à faire appel à une api
 import './App.css';
 
 function App() {
-  const [dataComponent, setDataComponent] = useState(1);
-  const [dataComponent1, setDataComponent1] = useState(1);
-  const [dataComponent2, setDataComponent2] = useState(1);
+  const [dataImg, setDataImg] = useState();
   useEffect(() => {
-    console.log("dataComponent changed");
-  }, [dataComponent]) // le tableau est à surveiller s'il est vide ; il n'est pas surveiller
-  const changeState = () => {
-    setDataComponent2(dataComponent2 + 1);
-  }
-  return (
-    <div className="App">
-      <h1>Le state est {dataComponent2}</h1>
-      <button onClick={changeState}>Change State</button>
+    fetch('https://api.thecatapi.com/v1/images/search')
+    .then(response => {
+      console.log(response);
+      return response.json;
+    })
+    .then(data => {
+      console.log(data);
+      setDataImg(data[0].url);
+    })
+  }, [])
+
+  return (// afficher quand l'image est reçu pour éviter le lien cassé
+    <div className="App">      
+      {dataImg && <img src={dataImg} alt="Is it a cat?" style={{width: "500px"}}/>}
     </div>
   );
 }
