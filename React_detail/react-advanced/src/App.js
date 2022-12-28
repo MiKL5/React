@@ -4,9 +4,13 @@ import './App.css';
 function App() {
   const [timer, setTimer] = useState(1)
   useEffect(() => {
-    setInterval(() => {
+    const intervalID=  setInterval(() => {
       setTimer(timer => timer + 1)
     }, 1000)
+    // useEffect peut retourner une focntion, ici une cleanup function
+    return () => {// supprimer l'interval pour ne pas surcharger la mémoire
+      clearInterval(intervalID);
+    }
   }, [])
   return (
     <div className="App">      
