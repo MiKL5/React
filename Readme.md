@@ -37,6 +37,5 @@
 8. Rendu conditionnel avec un toggle de class et de css
 8. Créer des listes
 
-## **Exercices** **_(soon)_**
-
-## **Projet** **_(soosn)_**  
+## **Projet**  
+23. To-Do List **_(soosn)_**
