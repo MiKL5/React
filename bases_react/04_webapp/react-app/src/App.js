@@ -4,16 +4,17 @@ import Item from './component/item/Item'
 
 function App() {
 
-  const [toggle, setToogle] = useState(true);
-  const changeState = () => {
-    setToggle(!toggle)
-  }
+  const [dataArr, setDataArr] = useState([
+    {nom: "Juliette"},
+    {nom: "John"},
+    {nom: "Joris"}
+  ])
 
     return (
       <div className="app">
-
-        <div className={toggle ? "box-animated" : "box"}></div>
-        {/* <div className="box" style={{backgroundColor: toggle ? "yellowgreen" : "#00DCFF"}}></div> */}
+        {dataArr.map((item, index) => {
+          console.log(index); // affiche les index dans la console
+          return <p Key={index}>{item.nom}</p>} ) }
 
         <button onClick={changeState}>Change state</button>
       </div>
@@ -27,3 +28,5 @@ export default App;
 // dans {myState} ou {modifyState}, je peux faire passer des chiffres, des caractères et des fonctions
 // two ways data binding car la 1re façon la value et la 2de l'évênement pour lier les données
 // {toggle ? <h1>State true</h1> : <h1>State false</h1>} car c'est directemnt une valeur
+// l'objet map "Array.prototype.map()" : la méthode créer un nouveau tableau avec les résultats de l'appel d'un fonction sur chaque élément du tableau appelant, donc retourne avec à chaque ligne un paragraphe à l'intérieur
+// Avec React quand à la création d'une liste de donénes il faut une clé unique par élément
