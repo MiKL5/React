@@ -37,5 +37,8 @@
 8. Rendu conditionnel avec un toggle de class et de css
 8. Créer des listes
 
+### **React dans le détail**
+
+23. Les règles des hooks **_(soosn)_**  
 ## **Projet**  
-23. [To-do list](projects/toDoList "To-do list") **_(soosn)_**
+24. [To-do list](projects/toDoList "To-do list")  
