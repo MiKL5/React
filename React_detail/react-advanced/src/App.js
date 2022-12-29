@@ -1,4 +1,4 @@
-import {useState, useEffect} from 'react' // sert svt à faire appel à une api
+import {useState, } from 'react' // sert svt à faire appel à une api
 import './App.css';
 import Timer from './Timer';
 

@@ -9,14 +9,14 @@ export default function Timer() {
         }, 1000)
         
         return () => {
-            alert('COMPOSANT DÉTRUIT !')
             clearInterval(intervalID);
             }
     }, [])
 
     return (
-        <div className="App">      
-        <h1>{timer}</h1>
-        </div>
+        <>
+            <h1>{timer}</h1>
+        </>
     );
 }
+//<Fragment> et </Fragment> = <> et </>, sans le mot 'Fragment' il n'est plus utilie d'importer 'Fragment'
