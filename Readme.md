@@ -44,6 +44,8 @@
 23. Appel à une api avec 'useEffect'  
 23. Utiliser 'setInterval'  
 23. La destruction d'un composant  
-23. Les 'React fragments' **_(soosn)_**  
+23. Les 'React fragments'  
+23. Le hook 'useRef'  
+23. Séléctionner un tableau d'éléments **_(soosn)_**  
 ## **Projet**  
 [To-do list](projects/toDoList "To-do list")  
