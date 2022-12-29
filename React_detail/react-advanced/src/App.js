@@ -24,3 +24,4 @@ export default function App() {
     </div>
   );
 }
+// une constante empêche la réassignation d'une aleur primitive, en plus de React qui ne le permet pas directement
