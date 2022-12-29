@@ -10,11 +10,15 @@ export default function App() {
 
   //toujours useEffect à la fin du 1er affichage pour rappeler
   useEffect(() => {
-    console.log(ref); // il y a bien un tableau de 3 vidéos
-    // mettre en pause aprés 1,5 seonde avec la fonction js pause()
-//  setTimeout(() => {
-//      ref.current.pause();
-//    }, 1500);
+    // addEventListener s'utilise tjrs dans useEffect()
+    window.addEventListener('resize', actionResize);
+    function actionResize(){
+      console.log("Resized!!!!")
+    }
+    // pour économiser de la mémoire la cleanup function
+    return () => {
+      window.removeEventListener('resize', actionResize)
+    }
   })
 
   // le bouton supprime le timer
