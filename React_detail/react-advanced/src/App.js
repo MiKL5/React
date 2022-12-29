@@ -1,54 +1,25 @@
-import {useState, useEffect, useRef} from 'react'
+import {useState} from 'react'
 import './App.css';
-import Video from './video.mp4';
 
 export default function App() {
-  const [toggle, setToggle] = useState(true);
-
-  // retour d'un objet de ce que j'ai sélectionner en valeur de première propriété qui s'appel current
-  const ref = useRef([]);
-
-  //toujours useEffect à la fin du 1er affichage pour rappeler
-  useEffect(() => {
-    // addEventListener s'utilise tjrs dans useEffect()
-    window.addEventListener('resize', actionResize);
-    function actionResize(){
-      console.log("Resized!!!!")
-    }
-    // pour économiser de la mémoire la cleanup function
-    return () => {
-      window.removeEventListener('resize', actionResize)
-    }
-  })
+  const [toggle, setToggle] = useState([1,2,3]);
 
   // le bouton supprime le timer
   const toggleFunc = () => {
-    setToggle(!toggle)
-  }
-
-  // ref oassera ci-dessous
-  const addToRef = el => { //el pour élément
-    console.log(el);
-    // vérif si el est tjrs là
-    if(el && !ref.current.includes(el)){ // est-ce que le tableau inclu l'élément ?
-      ref.current.push(el); //si ce'est faux' le mettre au tableau
-    }
-  }
+    // pour modifier il faut recopier les valeurs
+    const newArr = [...toggle];
+    newArr.push(4);
+    //toggle.push(4);
+    //console.log(toggle); // ça fonctionne dans la console
+    // setToggle(toggle) // avec React on ne peut pas modifier le state directment, en anglaiś on peut voir la phrase "NEVER MUTATE STATE DIRECTLY" donc il faut recopier les valeurs pour modifier.
+    setToggle(newArr);
+  };
+  // vérif dans la console que ça fonctionne
+  console.log("mise à jour");
 
   return (
     <div className="App">
-      <video ref={addToRef}  width="750" height="500" autoPlay controls muted>
-        <source src={Video} type='video/mp4'/>
-      </video>
-
-      <video ref={addToRef}  width="750" height="500" autoPlay controls muted>
-        <source src={Video} type='video/mp4'/>
-      </video>
-
-      <video ref={addToRef}  width="750" height="500" autoPlay controls muted>
-        <source src={Video} type='video/mp4'/>
-      </video>
-
+      <h1>{toggle}</h1>
       <button onClick={toggleFunc}>Toggle</button>
     </div>
   );
