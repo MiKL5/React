@@ -46,6 +46,9 @@
 23. La destruction d'un composant  
 23. Les 'React fragments'  
 23. Le hook 'useRef'  
-23. Séléctionner un tableau d'éléments **_(soosn)_**  
+23. Séléctionner un tableau d'éléments  
+23. Utiliser 'addEventListener'  
+23. Ne jamais changer le 'state' dans un tableau ou un objet avec React  
+23. Comprendre 'props.children' **_(soosn)_**  
 ## **Projet**  
 [To-do list](projects/toDoList "To-do list")  
