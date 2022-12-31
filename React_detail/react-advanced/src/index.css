@@ -3,3 +3,7 @@
   margin: 0;
   padding: 0;
 } /* Ceci à enlevé le margin de base */
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
