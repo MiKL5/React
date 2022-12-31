@@ -1,5 +1,6 @@
 import {useState} from 'react'
-import './App.css';
+import './App.css'
+import Content from './Content'
 
 export default function App() {
   const [toggle, setToggle] = useState([1,2,3]);
@@ -19,7 +20,16 @@ export default function App() {
 
   return (
     <div className="App">
-      <h1>{toggle}</h1>
+      <Content>
+        <h1>Titre de l'article 1</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quia dolores pariatur fugiat accusantium veniam iure perferendis, quae officiis quis voluptatum exercitationem repellendus maiores alias tempore dignissimos minima, laudantium expedita?</p>
+      </Content><Content>
+        <h1>Titre de l'article 2</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quia dolores pariatur fugiat accusantium veniam iure perferendis, quae officiis quis voluptatum exercitationem repellendus maiores alias tempore dignissimos minima, laudantium expedita?</p>
+      </Content><Content>
+        <h1>Titre de l'article 3</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quia dolores pariatur fugiat accusantium veniam iure perferendis, quae officiis quis voluptatum exercitationem repellendus maiores alias tempore dignissimos minima, laudantium expedita?</p>
+      </Content>
       <button onClick={toggleFunc}>Toggle</button>
     </div>
   );
