@@ -7,6 +7,9 @@
 > C'est un site avec beacoup de fonctionnalités qui nous donnent l'impression d'utiliser une application mobile, car il n'y a pas beaucoup de temps de chargment entre les pages vu que tout ce charge dés le début.
 
 
+## **Projet**  
+[To-do list](projects/toDoList "To-do list")  
+
 ## **Les exercices**
 
 ### **Rappel de Javascript modèrne**
@@ -49,6 +52,5 @@
 23. Séléctionner un tableau d'éléments  
 23. Utiliser 'addEventListener'  
 23. Ne jamais changer le 'state' dans un tableau ou un objet avec React  
-23. Comprendre 'props.children' **_(soosn)_**  
-## **Projet**  
-[To-do list](projects/toDoList "To-do list")  
+23. Comprendre 'props.children'  
+23. utiliser 'usememo' et 'reactmemo' **_(soosn)_**
