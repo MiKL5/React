@@ -1,4 +1,4 @@
-import {useState, useMemo} from 'react'
+import {useState, useMemo, useCallback} from 'react'
 import './App.css'
 import Content from './Content'
 
@@ -17,12 +17,16 @@ export default function App() {
   };
   // useMemo c'est pour les valeur de référence, il va avoir une fonction callback qui va retourner le tableau
   const tableau = useMemo(() => {
-    return [1,2,3,4]
-  }, []) // il ne se recréer plus à chaque affichage du parent
+    return toggle
+  }, []) // il ne se recréer plus à chaque affichage du parent // si le tableau de suveillance et vide plus de réaffichage
+  //useCallback est un hook qui permet de ne pas metre à jour les enfants si cette fonciton ne change pas et donc ne pas la recréer
+  const foo = useCallback(() => {
+    console.log('click');
+  }, []) // ce tableau vide pour l'écoûte // C'estutilse pour les grande fonction qui met du temps avec bcp de calculs par ex.
 
   return (
     <div className="App">
-      <Content num={tableau} />
+      <Content num={tableau} foo={foo} />
       <button onClick={toggleFunc}>Toggle</button>
     </div>
   );
@@ -32,3 +36,7 @@ export default function App() {
 // 'props.children' est mis à jour à chaque mise à jour de son parent même s'il ne change pas et pour palier, la mémorisation entre en jeu
 // useMemo fonctionne avec tous les autres props SAUF 'props.children'
 // 'React.memo' pour les valeurs primitive et 'useMemo' pour les valeurs de référence
+// ne pas abuser de 'useMemo' eet 'useCallback' car si on les utilise partout on perd en performance
+// et 'UseMemo' s'il y a bcp de composants
+// il n'y a des màj que si je passe des propos
+// IMMPOSSIBLE D'EMPÊCHER 'props.children' DE SE METTRE À JOUR
