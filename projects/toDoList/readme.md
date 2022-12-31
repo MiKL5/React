@@ -21,6 +21,8 @@ npm start
 Vous aurez une fenêtre semblable à ceci :  
 ![aperçu](../../src/sceenshots/overview.png "aperçu du projet")
 
+[Acéder au projet](projects\toDoList\ "Accéer au projet")
+
 ___
 >NOTA :  
 > Node.js doit-être installer sur l'ordinateur  
