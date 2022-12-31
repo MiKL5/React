@@ -21,7 +21,7 @@ npm start
 Vous aurez une fenêtre semblable à ceci :  
 ![aperçu](../../src/sceenshots/overview.png "aperçu du projet")
 
-[Acéder au projet](projects\toDoList\ "Accéer au projet")
+[Acéder au projet](https://github.com/MiKL5/React/tree/master/projects/toDoList "Accéer au projet")
 
 ___
 >NOTA :  
