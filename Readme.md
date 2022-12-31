@@ -53,4 +53,7 @@
 23. Utiliser 'addEventListener'  
 23. Ne jamais changer le 'state' dans un tableau ou un objet avec React  
 23. Comprendre 'props.children'  
-23. utiliser 'usememo' et 'reactmemo' **_(soosn)_**
+23. utiliser 'usememo' et 'reactmemo'  
+23. Compléter le tout avec useCallback  
+23. Créer un hook personnalisé  
+23. Créer une fenêtre modale **_(soosn)_**  
