@@ -56,4 +56,7 @@
 23. utiliser 'usememo' et 'reactmemo'  
 23. Compléter le tout avec useCallback  
 23. Créer un hook personnalisé  
-23. Créer une fenêtre modale **_(soosn)_**  
+23. Créer une fenêtre modale  
+23. Créer un accordéon  
+23. Créer une navbar responsive  
+23. React-router **_(soosn)_**  
