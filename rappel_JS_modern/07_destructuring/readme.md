@@ -24,4 +24,4 @@ const arr = [1,2,3];
 const [a,b,c] = arr;
 console.log(a,b,c); // affiche 1 2 3
 ```
->Le **destructuring** peut-être utilisé avec les probs.
+>Le **destructuring** peut-être utilisé avec les props.
