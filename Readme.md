@@ -59,5 +59,5 @@
 23. Créer une fenêtre modale  
 23. Créer un accordéon  
 23. Créer une navbar responsive  
-23. [React-router, les bases](React_detail\react-advanced\react-router\readme.md "Bases de React-router") 
+23. [React-router, les bases](React_detail\react-advanced\react-router "Bases de React-router") 
 23. Les chemins dynamyques **_(soon)_**  
