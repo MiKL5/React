@@ -9,6 +9,7 @@
 
 ## **Projet**  
 [To-do list](projects/toDoList "To-do list")  
+[Voir le projet 'To do list'](https://mikl5.github.io/reactTodoList/ "Voir le projet 'To do list'")  
 
 ## **Les exercices**
 
@@ -61,4 +62,9 @@
 23. Créer une navbar responsive  
 23. [React-router, les bases](React_detail/react-advanced/react-router\Docs/basesReactRouter "Bases de React-router") 
 23. [Les chemins dynamyques](React_detail/react-advanced/react-router\Docs/cheminDynamyque "Bases de React-router")  
-23. Créer la navigation **_(soon)_**  
+23. Créer la navigation  
+23. Les Navlinks  
+23. Faire des routes imbriquées  
+23. Les hooks utilitaires 'useParam' et 'useLocation'  
+23. À quoi sert l'api de contexte ?  
+23. Mise en place **_(soon)_**  
