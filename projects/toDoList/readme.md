@@ -23,6 +23,8 @@ Vous aurez une fenêtre semblable à ceci :
 
 [Acéder au projet](https://github.com/MiKL5/React/tree/master/projects/toDoList "Accéer au projet")
 
+[Voir le projet](https://mikl5.github.io/reactTodoList/ "Voir le projet")  
+
 ___
 >NOTA :  
 > Node.js doit-être installer sur l'ordinateur  
