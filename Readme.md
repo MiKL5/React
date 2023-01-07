@@ -61,7 +61,8 @@
 23. Créer un accordéon  
 23. Créer une navbar responsive  
 23. [React-router, les bases](React_detail/react-advanced/react-router/Docs/basesReactRouter "Bases de React-router") 
-23. [Les chemins dynamyques](React_detail/react-advanced/react-router/Docs/cheminDynamyque "Bases de React-router")  
+23. [Les chemins dynamyques](React_detail/react-advanced/react-router/Docs/cheminDynamyque "Chemins dynamyques")  
+23. [Créer la navigation](React_detail/react-advanced/react-router/Docs/navigation "Créer la navigation")  
 23. Créer la navigation  
 23. Les Navlinks  
 23. Faire des routes imbriquées  
