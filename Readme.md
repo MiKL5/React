@@ -62,7 +62,7 @@
 23. Créer une navbar responsive  
 23. [React-router, les bases](React_detail/react-router/Docs/basesReactRouter "Bases de React-router") 
 23. [Les chemins dynamyques](React_detail/react-router/Docs/cheminDynamyque "Chemins dynamyques")  
-23. [Créer la navigation](React_detail/eact-router/Docs/navigation "Créer la navigation")  
+23. [Créer la navigation](React_detail/react-router/Docs/navigation "Créer la navigation")  
 23. [Utiliser les NavLinks](React_detail/react-advanced/react-router/Docs/NavLinks "Utiliser les NavLinks")  
 23. Faire des routes imbriquées  
 23. Les hooks utilitaires 'useParam' et 'useLocation'  
