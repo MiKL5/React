@@ -68,7 +68,7 @@
 23. [Les chemins dynamyques](React_detail/react-router/Docs/cheminDynamyque "Chemins dynamyques")  
 23. [Créer la navigation](React_detail/react-router/Docs/navigation "Créer la navigation")  
 23. [Utiliser les NavLinks](React_detail/react-advanced/react-router/Docs/NavLinks "Utiliser les NavLinks")  
-23. [Les routes imbriquées](RReact_detail\react-router\Docs\routesImbriquées "Les routes imbriquées")  
-23. Les hooks utilitaires 'useParam' et 'useLocation'  
+23. [Les routes imbriquées](React_detail\react-router\Docs\routesImbriquées "Les routes imbriquées")  
+23. [Les hooks utilitaires 'useParam' et 'useLocation'](React_detail\react-router\Docs\routesImbriquées\readme.md "Les hooks utilitaires 'useParam' et 'useLocation'")  
 23. À quoi sert l'api de contexte ?  
 23. Mise en place **_(soon)_**  
