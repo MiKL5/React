@@ -1,4 +1,4 @@
-# **Les NavLinks**
+# **NavLink**
 
 Il prends aussi la props `to` mais aussi, `className`, `style`, etc.
 
