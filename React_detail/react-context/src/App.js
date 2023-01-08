@@ -1,5 +1,4 @@
 import './App.css';
-import BtnToggle from './Component/BtnToggle/BtnToggle';
 import Content from './Component/Content/Content';
 import ThemeContextProvider from './Context/ThemeContext';
 

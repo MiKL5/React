@@ -5,10 +5,20 @@ export const ThemeContext = createContext();
 // Création du composant avec du state à partaer avec TLM
 // Apporter
 const ThemeContextProvider  = props => {
+    // on peut passer des données comme 'hello' ou ici 'false' et des foncitons
     // la variable contient le state
-    const [theme, setTheme] = useState('Hello Contexte')
+    const [theme, setTheme] = useState('false') // light
+    const toggleTheme = () => {
+        setTheme(!theme)
+    }
+    // changement du body (car y a pas bcp de contenu) reste qu'à changer le bouton
+    if(theme){
+        document.body.classList.add('dark-body'); // Classe CSS (index.css)
+    } else {
+        document.body.classList.remove("dark-body");
+    }
     return (
-        <ThemeContext.Provider value={{theme}}>
+        <ThemeContext.Provider value={{toggleTheme, theme}}>
             {props.children}
         </ThemeContext.Provider>
     )
