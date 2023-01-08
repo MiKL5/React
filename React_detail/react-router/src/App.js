@@ -6,6 +6,8 @@ import NotFound from './components/NotFourd/NotFound'; //Second type de chemin d
 import Navbar from './components/Navbar/Navbar';
 import Contact from './components/Contact/Contact';
 import Services from './components/Services/Services';
+import Development from './components/Services/Development/Development';
+import Cybersecurity from './components/Services/Cybersecurity/Cybersecurity';
 
 export default function App() {
   return (
@@ -14,7 +16,10 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/services" element={<Services />} />
+        <Route path="/services" element={<Services />}>
+          <Route path="/services/developpement" element={<Development/>} />
+          <Route path="/services/cybersecurite" element={<Cybersecurity/>} />
+        </Route>
         <Route path="/Profile/:id" element={<Profile />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
