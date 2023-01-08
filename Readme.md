@@ -6,7 +6,11 @@
 > ### C'est quoi une application web
 > C'est un site avec beacoup de fonctionnalités qui nous donnent l'impression d'utiliser une application mobile, car il n'y a pas beaucoup de temps de chargment entre les pages vu que tout ce charge dés le début.
 
+## [-> Introduction à JSX](introJSX "Introduction complète à JSX")  
 
+**C'est une extension React de la syntaxe du langage JavaScript qui permet de structurer le rendu des composants à l'aide d'une syntaxe familière est similaire en apparence au HTML** _[(plus)](introJSX "En savoir plus")_
+
+---
 ## **Projet**  
 [To-do list](projects/toDoList "To-do list")  
 [Voir le projet 'To do list'](https://mikl5.github.io/reactTodoList/ "Voir le projet 'To do list'")  
