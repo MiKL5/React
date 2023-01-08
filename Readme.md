@@ -70,6 +70,8 @@
 23. [Utiliser les NavLinks](Docs/NavLinks "Utiliser les NavLinks")  
 23. [Les routes imbriquées](Docs/routesImbriquées "Les routes imbriquées")  
 23. [Les hooks utilitaires 'useParam' et 'useLocation'](Docs/routesImbriquées "Les hooks utilitaires 'useParam' et 'useLocation'")  
-23. [À quoi servent l'api de contexte et Redux ?](Docs\apiDeContexteVSRedux "Context API vs Redux")  
+23. [À quoi servent l'api de contexte et Redux ?](Docs/apiDeContexteVSRedux "Context API vs Redux")  
 23. Mise en place de l'API de contexte  
-23. Premier contexte **_(soon)_**  
+23. Premier contexte  
+23. Créer le 'Dark-light-mode'  
+23. Installer 'Redux' **_(soon)_**  
