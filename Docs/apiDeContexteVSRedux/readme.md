@@ -15,7 +15,7 @@ C'est pour ça que 'context API' vient englober pour fournir en interne des donn
 
 Utilté : thème (dark mode), authentification, langues, ... Ce sont les changements qu'on ne fait pas tout le temps donc des changments globaux.
 
-## **C'est quoi Redux** ? <img align="right" src="../../../../src/images/redux.svg" alt="Redux" title="Redux" widht="auto" height="64px">
+## **C'est quoi Redux** ? <img align="right" src="./../../src/images/redux.svg" alt="Redux" title="Redux" widht="auto" height="64px">
 
 Redux
 
