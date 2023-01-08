@@ -6,7 +6,7 @@
 > ### C'est quoi une application web
 > C'est un site avec beacoup de fonctionnalités qui nous donnent l'impression d'utiliser une application mobile, car il n'y a pas beaucoup de temps de chargment entre les pages vu que tout ce charge dés le début.
 
-## [-> Introduction à JSX](introJSX "Introduction complète à JSX")  
+## [-> Qu'est ce que JSX ?](introJSX "Introduction à JSX")  
 
 **C'est une extension React de la syntaxe du langage JavaScript qui permet de structurer le rendu des composants à l'aide d'une syntaxe familière est similaire en apparence au HTML** _[(plus)](introJSX "En savoir plus")_
 
@@ -68,7 +68,7 @@
 23. [Les chemins dynamyques](React_detail/react-router/Docs/cheminDynamyque "Chemins dynamyques")  
 23. [Créer la navigation](React_detail/react-router/Docs/navigation "Créer la navigation")  
 23. [Utiliser les NavLinks](React_detail/react-advanced/react-router/Docs/NavLinks "Utiliser les NavLinks")  
-23. [Les routes imbriquées](React_detail\react-router\Docs\routesImbriquées "Les routes imbriquées")  
-23. [Les hooks utilitaires 'useParam' et 'useLocation'](React_detail\react-router\Docs\routesImbriquées\readme.md "Les hooks utilitaires 'useParam' et 'useLocation'")  
-23. À quoi sert l'api de contexte ?  
+23. [Les routes imbriquées](React_detail/react-router/Docs/routesImbriquées "Les routes imbriquées")  
+23. [Les hooks utilitaires 'useParam' et 'useLocation'](React_detail/react-router/Docs/routesImbriquées/readme.md "Les hooks utilitaires 'useParam' et 'useLocation'")  
+23. [À quoi servent l'api de contexte et Redux ?](React_detail/react-router/Docs/apiDeContexte/readme.md "Context API vs Redux")  
 23. Mise en place **_(soon)_**  
