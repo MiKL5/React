@@ -20,7 +20,7 @@ export default function App() {
           <Route path="/services/developpement" element={<Development/>} />
           <Route path="/services/cybersecurite" element={<Cybersecurity/>} />
         </Route>
-        <Route path="/Profile/:id" element={<Profile />} />
+        <Route path="/profil/:id" element={<Profile />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </div>
