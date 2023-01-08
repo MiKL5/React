@@ -1,0 +1,7 @@
+.container {
+    padding: 50px 10vW;
+}
+
+.content-txt {
+    text-align: justify; /* Pour la forme, mais à ne pas faire dans la pratique car on s'y perd dans un texte justifié */
+}
