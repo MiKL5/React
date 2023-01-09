@@ -77,4 +77,4 @@
 23. [Installer 'Redux'](Docs/Redux "Redux")  
 23. Créer le store **_(soon)_**  
 
-## [Doc](Docs\readme.md)
+## [Doc](Docs)
