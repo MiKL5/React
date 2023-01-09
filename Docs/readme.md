@@ -12,3 +12,4 @@
 1. [Les routes imbriquées](Docs/routesImbriquées)
 1. [L'API de contexte vs Redux](Docs/apiDeContexteVSRedux)
 1. [L'API de contexte](Docs/ContextAPI)
+1. [Redux](Docs/Redux)
