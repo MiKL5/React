@@ -74,5 +74,7 @@
 23. Mise en place de l'API de contexte  
 23. Premier contexte  
 23. Créer le 'Dark-light-mode'  
-23. Installer 'Redux' 
+23. [Installer 'Redux'](Docs/Redux "Redux")  
 23. Créer le store **_(soon)_**  
+
+## [Doc](Docs\readme.md)
