@@ -3,7 +3,7 @@
 ## **Installer 'React-router' avec la commande suivante :**  
 `npm install react-router-com`
 
-## **Enblober toute l'application avec un browser routeur depuis 'index.js'**  
+## **Englober toute l'application avec un browser routeur depuis 'index.js'**  
 C'est un composant qui donne accés à toutes les fonctIonnalités du router.
 importer 'browserRouter'  
 ```jsx

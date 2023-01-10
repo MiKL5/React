@@ -1,4 +1,4 @@
-# Redux
+# Redux <img align="right" src="./../../src/images/redux.svg" alt="Redux" title="Redux" widht="auto" height="64px">
 
 ## Qu"est-ce que c'est ?
 
@@ -14,7 +14,7 @@ Cependant, il a pour avantage d'être beaucoup plus simple qu'autrefois. Par exe
 
 ## Le shéma de Redux
 
-![Redux schema](reduxSchema.png)
+![Redux schema](./../../src/Docs/reduxSchema.png)
 
 Le store Contient les données et les méthodes pour changer les données.  
 À côter, le composan qui est l'interface qui va affichr les données et / ou effectué des actions pour envoyer au store et demander le changement du state.  
