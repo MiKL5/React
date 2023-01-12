@@ -64,7 +64,7 @@
 23. Créer une fenêtre modale  
 23. Créer un accordéon  
 23. Créer une navbar responsive  
-23. [React-router, les bases](Docs/basesReactRouter "Bases de React-router") 
+23. [Les bases de React-router](Docs/basesReactRouter "Bases de React-router") 
 23. [Les chemins dynamyques](Docs/cheminDynamyque "Chemins dynamyques")  
 23. [Créer la navigation](Docs/navigation "Créer la navigation")  
 23. [Utiliser les NavLinks](Docs/NavLinks "Utiliser les NavLinks")  
