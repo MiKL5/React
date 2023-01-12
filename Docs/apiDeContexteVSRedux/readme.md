@@ -1,4 +1,4 @@
-# API de Contexte
+# API de Contexte vs Redux
 
 ## **C'est quoi une API ?**
 
@@ -8,13 +8,13 @@ Une interface de programmation d'application, est un ensemble de définitions et
 
 Cet outil est immanent à React et permet de gérer le 'state' globalement.  
 
----
 Les 'props drilling' passent du parent (haut) à l'enfant (bas). Si on partage à un enfant qui est 10 imbrication plus bas, ça va être très long et fastudieux de lui faire passer une props et va alourdir le code. C'est limiter car il devient très long dans ce cas de faire une petite action.  
 
 C'est pour ça que 'context API' vient englober pour fournir en interne des données sans intervenir entre tous les parents et enfants.
 
 Utilté : thème (dark mode), authentification, langues, ... Ce sont les changements qu'on ne fait pas tout le temps donc des changments globaux.
 
+___
 ## **C'est quoi Redux** ? <img align="right" src="./../../src/images/redux.svg" alt="Redux" title="Redux" widht="auto" height="64px">
 
 Redux
