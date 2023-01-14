@@ -8,7 +8,7 @@ import CounterReducer from './Reducers/CounterReducer';
 
 // const root = ReactDOM.createRoot(document.getElementById('root'));
 const Store = createStore(CounterReducer);
-ReactDOM.render(
+ReactDOM.render( // render met l'appli dans la div root
   <Provider store={Store}>
     <App />
   </Provider>, // la virgule car y a deux arguments provider et getElementById
