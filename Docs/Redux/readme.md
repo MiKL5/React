@@ -2,7 +2,7 @@
 
 ## **Qu'est-ce que c'est ?**
 
-C'est un moyen de géré son state comme avec l'API de contexte. D'ailleurs Redux utilise l'API de contexte. IL n'est pas seulement utilisable avec React, mais avec tout.  
+C'est un moyen de géré son state comme avec l'API de contexte. D'ailleurs Redux utilise l'API de contexte. Il n'est pas seulement utilisable avec React, mais avec tout.  
 Il existe cependant une version de _Redux_ adaptée à React avec des fonctionnalités supplémentaires et un environnement adapté.  
 
 > <img align="left" src="./../../src/images/Attention.svg" alt="Warning" title="Warning" widht="auto" height="64x" padding="10px"> Les 2 site de la librairie étant similaire et attention à aller sur le site 'React-Redux'. Néanmoins, les informations fournies sur 'Redux' sont majoritairement réutilisables avec 'React'.  
