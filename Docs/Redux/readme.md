@@ -30,5 +30,5 @@ Deux éléments sont à installer ;
 1. L'outil **_Redux_** saisir `npm install redux` ;
 2. 'React-redux' via la commande `react-redux`pour l'intégration optimale.
 
-> NOTA  
+>>> NOTA  
 Dans **Visual Studio Code**, taper `ctrl`+ `ù` pour ouvrir un terminal.
