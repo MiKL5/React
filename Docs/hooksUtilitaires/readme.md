@@ -1,6 +1,8 @@
-# Le hook 'useParams'
+# **Les hooks utilitaires**
 
-Utiles aux chemins dynamyques afin de faire appel a des api, aller dans des éléments, affihcher les paramètres dynamyques, classer des éléments et cætera.
+## **Le hook 'useParams'**
+
+Utiles aux chemins dynamiques afin de faire appel à des api, aller dans des éléments, afficher les paramètres dynamiques, classer des éléments et cætera.
 ```jsx
 export default function Profile() {
   const params = useParams();
@@ -13,7 +15,7 @@ export default function Profile() {
 }
 ```
 
-# Le hook 'UseLocation'
+## **Le hook 'UseLocation'**
 
 Permet de passer du 'state' à travers les liens et avoir plus d'info sur la page actuelle.  
 
@@ -26,7 +28,7 @@ export default function Home() {
             <Link
             to="/Contact"
             // state={"test"}>Contact</Link>
-            // ou un objet si par exemple on fait un quiz et qu'on veut garder des donées tel qu'un score
+            // ou un objet si par exemple on fait un quiz et qu'on veut garder des données tel qu'un score
             state={{fromeHome: "Hello"}}>Contact</Link>
         </>
     )

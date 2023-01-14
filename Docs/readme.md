@@ -6,7 +6,7 @@
 1. [Quelques explications](02_explanations)
 1. [Les 2 règles des hooks](reglesDesHooks)
 1. [Les bases de React-router](basesReactRouter)
-1. [Les chmains dynamyques](Docs\cheminDynamyque)
+1. [Les chemins dynamiques](Docs\cheminDynamyque)
 1. [La navigation](navigation)
 1. [Les NavLinks](NavLinks)
 1. [Les routes imbriquées](routesImbriquées)

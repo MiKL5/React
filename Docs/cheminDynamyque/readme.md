@@ -1,10 +1,10 @@
-# **Les chemains dynamyques**
+# **Les chemins dynamiques**
 Il est toujours à la fin de la route.  
 Son nommage et libre.  
-Il y a deux types de chemins dynamyques :  
+Il y a deux types de chemins dynamiques :  
 * Ci-dessus, c'est `:id`².
-* Un autre représente les pages qui ne sont ni à la racine ni dynmyques (depuis la verison 6). Il s'agit de `*`. Il sert en cas de page non trouvée par expemple. Depuis la version 6, les ordres de routes son superfétatoires.  
-Ce type de chemin dynamyque permet de personaliser les pages, donc de les rendre moins techniques.  
+* Un autre représente les pages qui ne sont ni à la racine ni dynamiques (depuis la version 6). Il s'agit de `*`. Il sert en cas de page non trouvée par exemple. Depuis la version 6, les ordres de routes son superfétatoires.  
+Ce type de chemin dynamique permet de personnaliser les pages, donc de les rendre moins techniques.  
 
 Ça donne donc ça :
 ```jsx
@@ -47,5 +47,5 @@ export default function NotFound() {
 }
 ```  
 >NOTA  
-'useNavigate' est une hook de la communauté React-router.  
-² si `:id` est remplacé par `*` ça va matcher une infinté de dossier imbriqué.
+'useNavigate' est un hook de la communauté React-router.  
+² si `:id` est remplacé par `*` ça va matcher une infinité  de dossier imbriqué.

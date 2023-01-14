@@ -1,9 +1,9 @@
 # **React router**  
 
-## **Installer 'React-router' avec la commande suivante :**  
+## **Installer _'React-router'_ avec la commande suivante :**  
 `npm install react-router-dom`
 
-## **Englober toute l'application avec un '_browser routeur_' depuis 'index.js'**  
+## **Englober toute l'application avec un '_browser routeur_' depuis _'index.js'_**  
 C'est un composant qui donne accés à toutes les fonctIonnalités du router.
 importer 'browserRouter'  
 ```jsx
@@ -27,8 +27,8 @@ par
 import {Routes, Route} from "react-router-dom"
 ```
 Dans la `<div>` mettre les balises `<Routes>` englobant `<Route />` contenant deux infos
-* le chemin 'path' : la racine ;
-* un élément à montrer, à créer dans le dossier 'compoents' ;
+* le chemin _'path'_ : la racine ;
+* un _élément_ à montrer, à créer dans le dossier 'compoents' ;
 ```jsx
 export default function App() {
     return (
@@ -40,9 +40,9 @@ export default function App() {
     );
 }
 ```
-## **Créer 'Home.js'**
-* Dans un dossier 'components', crèer un autres dossier 'Home' contenant 'Home.js'
-* Dans le fichier 'rfc' puis tabulation pour obtenir ce qui suit :
+## **Créer _'Home.js'_**
+* Dans un dossier _'components'_, crèer un autres dossier _'Home'_ contenant _'Home.js'_
+* Faire 'rfc' puis tabulation pour obtenir ce qui suit :
 ```jsx
 import React from 'react'
 
@@ -56,7 +56,7 @@ export default function Home() {
 ``` 
 * Ajouter ce qui est nécéssaire entre les 'fragments' ou les 'div'
 
-## **Importer le composant 'Home' dans 'App.js'**
+## **Importer le composant _'Home'_ dans _'App.js'_**
 Pour gagner du temps faire ìmport Home`puis appuyer sur tabulation ou entrée.
 ```jsx
 import Home from './components/Home/Home';

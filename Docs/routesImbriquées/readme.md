@@ -1,7 +1,7 @@
 # **Les routes imbriquées**
 
 Il s'agit d'une sous navigation vers des sous composants.  
-Ca imcombe d'avoir une balise nav dans ledit composant.
+Ca imcombe d'avoir une balise `<nav>` dans ledit composant.
 
 ```jsx
 <nav>
@@ -13,7 +13,7 @@ Ca imcombe d'avoir une balise nav dans ledit composant.
 Placé le composant enfant dans le dossier du parent permet d'éviter la confusion mais on peut le placé dans 'Components'.
 
 >>> NOTA :  
-Penser à ouvrir la route du somposant parent dans 'App.js' pour inclures les routes imbriquées.  
+Penser à ouvrir la route du composant parent dans _'App.js'_ pour inclure les routes imbriquées.  
 ```jsx
         <Route path="/services" element={<Services />}>
           <Route path="/services/developpement" element={<Development/>} />
