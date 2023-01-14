@@ -5,9 +5,10 @@ import App from "./App";
 import { createStore } from "redux";
 import { Provider } from "react-redux";
 import CounterReducer from './Reducers/CounterReducer'
+import AddCartReducer from "./Reducers/addCartReducer";
 
 // const root = ReactDOM.createRoot(document.getElementById('root'));
-const Store = createStore(CounterReducer);
+const Store = createStore(AddCartReducer);
 ReactDOM.render( // render met l'appli dans la div root
   <Provider store={Store}>
     <App />
