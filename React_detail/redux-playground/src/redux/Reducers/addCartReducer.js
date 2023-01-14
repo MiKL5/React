@@ -17,4 +17,5 @@ export default function AddCartReducer(state = INITIAL_STATE, action){
     return state;
 }
 // Reducer est une fonction qui prend un state est le change
-// Eviter de tout mettre dans le même switch pour ne pas en faire une usine à gaz
+// Eviter de tout mettre dans le même switch pour ne pas mettre trop de logiques différentes car c'est trop long complexe
+// Donc chaque reducer à sa logique
