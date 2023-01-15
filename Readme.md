@@ -14,6 +14,7 @@
 ## **Projet**  
 [To-do list](projects/toDoList "To-do list")  
 [Voir le projet 'To do list'](https://mikl5.github.io/reactTodoList/ "Voir le projet 'To do list'")  
+[Blog avec React]( "Créer un blog") **_(soon)_**  
 
 ## **Les exercices**
 
@@ -75,6 +76,12 @@
 23. Premier contexte  
 23. Créer le 'Dark-light-mode'  
 23. [Installer 'Redux'](Docs/Redux "Redux")  
-23. Créer le store **_(soon)_**  
+23. Créer le store  
+23. 'useSelect'  
+23. Créer un 'reducer'  
+23. Le 'payload' avec 'dispatch'  
+23. Combiner plusieurs reducers  
+23. [Qu'est ce qu'un middleware](Docs/middleware "Middleware")  
+23. [Appel asynchrone avec Redux Thunk](Docs\middlewareReduxThunk "Appel asynchrone avec Redux Thunk")  
 
 ## [Doc](Docs)
