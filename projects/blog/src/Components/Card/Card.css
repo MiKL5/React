@@ -11,10 +11,12 @@
     flex-direction: column;
     justify-content: space-between;
 }
+
 .card h2 {
     font-size: 25px;
     margin-bottom: 10px;
 }
+
 .card p {
     font-size: 18px;
 }
