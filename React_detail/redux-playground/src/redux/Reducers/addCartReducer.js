@@ -3,7 +3,7 @@ const INITIAL_STATE ={
 }
 
 // state = initial_state et prend des actions sur le state
-export default function AddCartReducer(state = INITIAL_STATE, action){
+export default function addCartReducer(state = INITIAL_STATE, action){
     switch(action.type){
         case 'ADDCART': {
           return{ // le state n'est JAMAIS DIRECTEMENT MODIFIER DONC,

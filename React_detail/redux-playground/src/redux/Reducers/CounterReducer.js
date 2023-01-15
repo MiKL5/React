@@ -3,7 +3,7 @@ const INITIAL_STATE ={
 }
 
 // state = initial_state et prend des actions sur le state
-export default function CounterReducer(state = INITIAL_STATE, action){
+export default function counterReducer(state = INITIAL_STATE, action){
     switch(action.type){
         // INCREMENTER
         case 'INCR': {
