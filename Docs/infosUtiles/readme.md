@@ -13,9 +13,15 @@ Les composants (dossiers et fichiers) ont la première lettre en majuscule,
 ## **Reprendre le travail avec un autre ordi**
 
 Les projet est pusher sur 'GitHub' pour ne citer que lui qu'avec la webapp et les fichiers 'pacakage.json' et 'package-lock.json'.  
-C'est pourquoi il est ouvir un terminal dans le dossier de la webapp. Le raccourcis `ctrl`+ `ù` ouvre un terminal via **Visual Studio Code**. Puis `npm install` pour tout réinstaller. Cette dernière commande va interroger le fichier 'package.json' pour savoir ce qu'il faut récupérer et avec la même version.
+C'est pourquoi il faut ouvrir un terminal dans le dossier de la webapp. Le raccourcis `ctrl`+ `ù` ouvre un terminal via **Visual Studio Code**. Puis `npm install` pour tout réinstaller. Cette dernière commande va interroger le fichier 'package.json' pour savoir ce qu'il faut récupérer et avec la même version.
 
 ---
 ## Autres infos  
 
-Les "**_import_**" se font entre accolades s'il ne sont pas issues d'un "**_export default_**"
+Les "**_import_**" se font entre accolades s'il ne sont pas issus d'un "**_export default_**".  
+
+Le fichier '**_reportWebVitals.js_**' sert à la connexion à Google Analytics.  
+
+Le dossier '**_Container_**' contient les pages, il est déconseilé de le nommé pages car '**Next.js**' est un framework de React qui contient un dossier 'pages'. Il y a un risque de confusion.  
+
+Le dossier '**_redux_**' est un minuscule, ainsi que ce qu'il contient.
