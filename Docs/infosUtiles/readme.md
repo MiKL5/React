@@ -25,3 +25,6 @@ Le fichier '**_reportWebVitals.js_**' sert à la connexion à Google Analytics.
 Le dossier '**_Container_**' contient les pages, il est déconseilé de le nommé pages car '**Next.js**' est un framework de React qui contient un dossier 'pages'. Il y a un risque de confusion.  
 
 Le dossier '**_redux_**' est un minuscule, ainsi que ce qu'il contient.
+
+`onInput` = déclanche l'évt à chq fous que qqch est écrit.  
+`onChange` trigger à la perte du focus.
