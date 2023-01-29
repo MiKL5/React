@@ -14,7 +14,7 @@ export default function Navbar() {
 
             <NavLink to="/services"
             className={({isActive}) => isActive ? "activeLink" : ""}
-            >Services</NavLink>
+            >Écrire</NavLink>
 
             <NavLink to="/contact"
             className={({isActive}) => isActive ? "activeLink" : ""}
