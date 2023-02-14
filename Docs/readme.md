@@ -8,9 +8,11 @@
 
 1. [Les 2 règles des hooks](reglesDesHooks)
 
+1. [Les hooks utilitaires](hooksUtilitaires)
+
 1. [Les bases de React-router](basesReactRouter)
 
-1. [Les chemins dynamiques](Docs\cheminDynamyque)
+1. [Les chemins dynamiques](cheminDynamyque)
 
 1. [La navigation](navigation)
 
