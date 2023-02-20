@@ -1,7 +1,7 @@
 # **Les routes imbriquées**
 
 Il s'agit d'une sous navigation vers des sous composants.  
-Ca imcombe d'avoir une balise `<nav>` dans ledit composant.
+Ça incombe d'avoir une balise `<nav>` dans ledit composant.
 
 ```jsx
 <nav>
@@ -10,7 +10,7 @@ Ca imcombe d'avoir une balise `<nav>` dans ledit composant.
 </nav>
 ```
 
-Placé le composant enfant dans le dossier du parent permet d'éviter la confusion mais on peut le placé dans 'Components'.
+Placer le composant enfant dans le dossier du parent permet d'éviter la confusion, mais on peut le placer dans 'Components'.
 
 >>> NOTA :  
 Penser à ouvrir la route du composant parent dans _'App.js'_ pour inclure les routes imbriquées.  
@@ -21,7 +21,7 @@ Penser à ouvrir la route du composant parent dans _'App.js'_ pour inclure les r
         </Route>
 ```
 
-Enfin le composant `Outlet` permet de dire au parent ou sort le contenu des enfants.
+Enfin, le composant `Outlet` permet de dire au parent ou sort le contenu des enfants.
 ```jsx
 import React from 'react'
 import { Link, Outlet } from 'react-router-dom'

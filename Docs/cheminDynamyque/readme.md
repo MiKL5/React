@@ -1,16 +1,16 @@
 # **Les chemins dynamiques**
 Il est toujours à la fin de la route.  
-Son nommage et libre.  
+Son nommage est libre.  
 Il y a deux types de chemins dynamiques :  
 * Ci-dessus, c'est `:id`².
-* Un autre représente les pages qui ne sont ni à la racine ni dynamiques (depuis la version 6). Il s'agit de `*`. Il sert en cas de page non trouvée par exemple. Depuis la version 6, les ordres de routes son superfétatoires.  
+* Un autre représente les pages qui ne sont ni à la racine ni dynamiques (depuis la version 6). Il s'agit de `*`. Il sert en cas de page non trouvée par exemple. Depuis la version 6, les ordres de routes sont superfétatoires.  
 Ce type de chemin dynamique permet de personnaliser les pages, donc de les rendre moins techniques.  
 
 Ça donne donc ça :
 ```jsx
 <Route path="*" element={<NotFound />} />
 ```
-Il faut donc créer le composant qui peut avoir besoin de CSS.  
+Il faut créer le composant qui peut avoir besoin de CSS.  
 Le code ci-après :
 ```jsx
 import React from 'react'
@@ -48,4 +48,4 @@ export default function NotFound() {
 ```  
 >NOTA  
 'useNavigate' est un hook de la communauté React-router.  
-² si `:id` est remplacé par `*` ça va matcher une infinité  de dossier imbriqué.
+² si `:id` est remplacé par `*` ça va matcher une infinité de dossiers imbriqués.

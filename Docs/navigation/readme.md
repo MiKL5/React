@@ -9,5 +9,5 @@ Ce composant est forcément accompagné de la props `to`, la ligne de code resse
 ```jsx
 <Link to="/">Accueil</Link>
 ```
-Les URL sont conventionnellement  en minuscules.  
-Les liens de la navbar ont leurs routes dans 'App.js' et le composant y sont importés. L'algorithme de sélection permet de mettre les routes dans n'importe quel ordre. Le plus spécifique l'importe face au moins spécifique.
+Les URL sont conventionnellement en minuscules.  
+Les liens de la navbar ont leurs routes dans 'App.js' et le composant y et importé. L'algorithme de sélection permet de mettre les routes dans n'importe quel ordre. Le plus spécifique l'emporte face au moins spécifique.
