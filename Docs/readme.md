@@ -26,6 +26,6 @@
 
 1. [Redux](Redux)
 
-1. [Le middleware](Middleware)
+1. [Le middleware](middleware)
 
 1. [Le middleware Redux Thunk](middlewareReduxThunk)

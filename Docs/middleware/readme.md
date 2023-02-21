@@ -6,9 +6,9 @@
 
 > Exemple :  
 1. Quand un article est ajouté au panier,
-2.  ça appel une méthode '_dispatch_',
-3.  puis trigger (déclenche) un middleware,
-4. Le middleware va lancer une action (modifier des données, modifier le dispatch, faire un appel asynchrone à une API, changer le rooting, et cætera),
+2. ça appelle une méthode '_dispatch_',
+3. puis trigger (déclenche) un middleware,
+4. le middleware va lancer une action (modifier des données, modifier le dispatch, faire un appel asynchrone à une API, changer le rooting, et cætera),
 5. puis rappel le dispatch.
 
 ---
@@ -16,7 +16,7 @@
 > Pour l'utiliser    
 
 Il faut importer `applyMiddleware` dans `store.js`
-Puis le placer dans la constante '_store_' en argument qui à lui-même un middleware à exécuter.
+Et le placer dans la constante '_store_' en argument qui à lui-même un middleware à exécuter.
 ```jsx
 const store = createStore(rootReducer, applyMiddleware(customMiddleware));
 ```
@@ -50,7 +50,7 @@ const customMiddleware = store => next => action => {
     next(actionModif) // donne une nouvelle action
 }
 ```
-4. puis continue la chemin jusqu'au _reducer_, donc jusqu'à la modification du state dans le store.
+4. puis continue le chemin jusqu'au _reducer_, donc jusqu'à la modification du 'state' dans le store.
 ```jsx
     next(actionModif) // donne une nouvelle action
 ```
