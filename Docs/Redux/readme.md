@@ -6,11 +6,11 @@ C'est un moyen de géré son state comme avec l'API de contexte. D'ailleurs Redu
 Il existe cependant une version de _Redux_ adaptée à React avec des fonctionnalités supplémentaires et un environnement adapté.  
 
 > <img align="left" src="./../../src/images/Attention.svg" alt="Warning" title="Warning" widht="auto" height="64x" padding="10px"> Les 2 site de la librairie étant similaire et attention à aller sur le site 'React-Redux'. Néanmoins, les informations fournies sur 'Redux' sont majoritairement réutilisables avec 'React'.  
-Ça a beaucoup évoluer et quand on chercher dans la documentation il n'est pas rare de tomber sur d'anciennes versions. C'est parfois gênant car elle était beaucoup plus compliquée autrefois.  
-Dans une recherche Google, il est indispensable de choisir via le bouton 'Outils', 'Moins d'un an' quel que soit la recherche sur 'React' ; ça limite la quantité de documentions déprécier.  
+Ça a beaucoup évolué et quand on cherche dans la documentation, il n'est pas rare de tomber sur d'anciennes versions. C'est parfois gênant, car elle était beaucoup plus compliquée autrefois.  
+Dans une recherche Google, il est indispensable de choisir via le bouton 'Outils', 'Moins d'un an' quelle que soit la recherche sur 'React' ; ça limite la quantité de documentions déprécié.  
 Exemple : un article de 2017 est presque entièrement déprécié.
 ---
-Cependant, il a pour avantage d'être beaucoup plus simple qu'autrefois. Par exemple avec les hooks.
+Néanmoins, il a pour avantage d'être beaucoup plus simple qu'auparavant. Par exemple avec les hooks.
 
 ## **Le schéma de Redux**
 
