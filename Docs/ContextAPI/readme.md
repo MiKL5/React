@@ -1,6 +1,6 @@
 # **À propos de de l'API de contexte**
 
-Grâce à l'API de contexte on va importer le.s contexte.s ou on veut, dans des segments, des sections, ces caégories du code. Même si elle est assez petite et qu'elle n'a que 4 imbrications ou 3 enfants, ça éviter l'utilisation des pops.
+Grâce à l'API de contexte on va importer le.s contexte.s ou on veut, dans des segments, des sections, ces catégories du code. Même si elle est assez petite et qu'elle n'a que 4 imbrications ou 3 enfants, ça éviter l'utilisation des pops.
 
 ## **C'est quoi le contexte ?**
 
@@ -11,7 +11,7 @@ Dans une application React typique, les données sont passées de haut en bas (d
 ## **Utiliser le contexte**  
 
 Le Contexte est principalement utilisé quand certaines données doivent être accessibles par de nombreux composants à différents niveaux d’imbrication.  
-Il est a utiliser avec parcimonie car il rend la réutilisation des composants plus difficile.
+Il est à utiliser avec parcimonie, car il rend la réutilisation des composants plus difficile.
 
 ## **Les limites**
 

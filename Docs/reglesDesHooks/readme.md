@@ -2,7 +2,7 @@
 
 Deux règles :
 1. Il faut tout le temps les écrire à la racine de la fonction ;
-    * C'est à dire tout en haut,  
+    * c'est-à-dire tout en haut,  
         * jamais imbriqué dans des blocs,  
         * jamais dans des if / else,
         * jamais dans des boucles, et cætera.  
