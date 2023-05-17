@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { FunctionComponent } from 'react';
 
-const App: React.FC = () => { // typé avec React.FC c'est-à-dire Function Componet, composant pouvant être écrit sous la forme d'une fonction
+const App: FunctionComponent = () => { // le destructuring d'ES6 permet d'extraire le composant FunctionComponent du paquet React, c'est plus lisible est moins fatiguant à lire.
     const name: String = 'React'; // une variable de type string contenant la valeur React
     
     return ( // la valeur sera afficher dans le dom virtuel grace à jsx
