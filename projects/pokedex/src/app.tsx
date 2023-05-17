@@ -4,7 +4,7 @@ const App: FunctionComponent = () => { // le destructuring d'ES6 permet d'extrai
     const name: String = 'React'; // une variable de type string contenant la valeur React
     
     return ( // la valeur sera afficher dans le dom virtuel grace à jsx
-        <h1>Hello, {name} !</h1>
+        <h1>Bonjour, {name} !</h1>
     )
 }
 
