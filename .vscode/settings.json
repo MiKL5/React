@@ -16,16 +16,7 @@
         "titleBar.activeBackground": "#00dcff",
         "titleBar.activeForeground": "#15202b",
         "titleBar.inactiveBackground": "#00dcff99",
-        "titleBar.inactiveForeground": "#15202b99",
-        "editorGroup.border": "#33e3ff",
-        "panel.border": "#33e3ff",
-        "sideBar.border": "#33e3ff",
-        "statusBar.border": "#00dcff",
-        "statusBar.debuggingBackground": "#ff2300",
-        "statusBar.debuggingBorder": "#ff2300",
-        "statusBar.debuggingForeground": "#e7e7e7",
-        "tab.activeBorder": "#33e3ff",
-        "titleBar.border": "#00dcff"
+        "titleBar.inactiveForeground": "#15202b99"
     },
     "peacock.color": "#00DCFF",
     "emmet.includeLanguages": {
