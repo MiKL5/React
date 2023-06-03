@@ -4,8 +4,8 @@
 > Elle sert à créer des interfaces utilisateurs avec des composants autonomes qui maintiennent leur propre état.
 > React permet de créer des applications Web.
 >  
-> ### **C'est quoi une application web**
-> C'est un site avec beacoup de fonctionnalités qui nous donnent l'impression d'utiliser une application mobile, car il n'y a pas beaucoup de temps de chargment entre les pages vu que tout ce charge dés le début.
+> ### **Qu'est-ce q'une application web**
+> C'est un site avec beaucoup de fonctionnalités qui nous donnent l'impression d'utiliser une application mobile, car il n'y a pas beaucoup de temps de chargement entre les pages, vu que tout se charge dès le début.
 
 ## [Qu'est ce que JSX ?](Docs/introJSX "Introduction à JSX")  
 
@@ -56,7 +56,7 @@
 23. La destruction d'un composant  
 23. Les 'React fragments'  
 23. Le hook 'useRef'  
-23. Séléctionner un tableau d'éléments  
+23. Sélectionner un tableau d'éléments  
 23. Utiliser 'addEventListener'  
 23. Ne jamais changer le 'state' dans un tableau ou un objet avec React  
 23. Comprendre 'props.children'  
@@ -86,3 +86,17 @@
 23. [Appel asynchrone avec Redux Thunk](Docs\middlewareReduxThunk "Appel asynchrone avec Redux Thunk")  
 
 ## [Doc](Docs)
+
+<br>
+
+___
+# **React Native**
+
+## **Qu'est-ce que React Native ?**
+C'est une bibliothèque JS basée sur la logique de React (gestion de la mise à jour de l'interface utilisateur, la gestion des états, les composants. Les composants sont particuliers comme View, Text, Image, etc) afin de créer des applications natives pour Android est iOS. Ce qui permet de coder une seule fois en JavaScript et de générer un code natif pour iOS et Android.  
+
+React Native sait compiler ses composants particuliers pour en faire des widgets en code natif qui fonctionnent sur ces deux plateformes.  
+
+Elle permet également l'accès à certaines API natives qui nous permettent de faire plus de chose comme autorisé l'accès à la caméra.
+
+## [Doc](ReactNative/Docs)
