@@ -1,4 +1,4 @@
-# **React Native** <img align="right" src="../../../src/images/react-native.png" alt="React" title="framework React" widht="auto" height="64px">
+# **React Native** <img align="right" src="../../src/images/react-native.png" alt="React" title="framework React" widht="auto" height="64px">
 
 1. [Qu'est-ce que React Native](reactNative "Qu'est ce que React Native")
 
