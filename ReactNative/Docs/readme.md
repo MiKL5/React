@@ -6,4 +6,4 @@
 
 1. [L'exécution du JS et la compilation](executionJS "L'exécution du JS et la compilation")
 
-1. [Expo CLI vs React Native CLI](ReactVSReactNativeComponents "Expo CLI vs React Native CLI")
+1. [Expo CLI vs React Native CLI](expoCLIvsRNCLI "Expo CLI vs React Native CLI")
