@@ -16,4 +16,4 @@ Cela nécessite une configuration relativement complexe et l'utilisation d'un ce
 ## **Pourquoi ne pas utiliser directement React Native CLI ?**
 
 Seul macOS permet de coder leurs applications natives via React Native CLI.  
-Avec Windows et Linux "Expo CLI" est incontournable pour avoir l'environnement de travail nécessaire pour coder des applis iOS.
+Avec Windows et Linux, "Expo CLI" est incontournable pour avoir l'environnement de travail nécessaire pour coder des applis iOS.
