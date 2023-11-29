@@ -14,7 +14,6 @@
 ---
 ## **Projet**  
 [To-do list](projects/toDoList "To-do list") ou [accéder à au projet](https://mikl5.github.io/reactTodoList/ "Voir le projet 'To do list'")  
-[Shiny Agency](projects/shiny-agency "Shiny Agency")  
 [Blog avec React](projects/blog "Créer un blog") **_Wip_**  
 
 ## **Les exercices**
