@@ -6,4 +6,4 @@ React Native sait compiler ses composants particuliers pour en faire des widgets
 
 Elle permet également l'accès à certaines API natives qui nous permettent de faire plus de chose comme autorisé l'accès à la caméra.  
 
-Le code est compiler en véritable code nafif iOS et Android. Se sont ainsi des vraies applications pour Android et iOS et être placées sur l'AppStore et le Play Store.
+Le code est compilé en véritable code natif iOS et Android. Ce sont ainsi des vraies applications pour Android et iOS et être placées sur l'AppStore et le Play Store.
