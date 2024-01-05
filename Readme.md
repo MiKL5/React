@@ -1,4 +1,4 @@
-# **Learning React** <img align="right" src="src/images/React-icon.svg" alt="React" title="framework React" widht="auto" height="64px"> 
+# **Learning React** <img align="right" src="src/images/React-icon.svg" alt="React" title="framework React" widht="auto" height="64px">
 > ### **C'est quoi React**
 > Cette librairie est très populaire et à prix tellement d'ampleur qu'elle est devenue aussi importante qu'un framework.  Une librairie résout une problèmatique alorrs qu'un framework est un cadre de travail complet qui généralement résout plusieurs problèmes. C'est la librarie Javascript le plus populaire.  
 > Elle sert à créer des interfaces utilisateurs avec des composants autonomes qui maintiennent leur propre état.
@@ -16,7 +16,8 @@
 [To-do list](projects/toDoList "To-do list") ou [accéder à au projet](https://mikl5.github.io/reactTodoList/ "Voir le projet 'To do list'")  
 <!-- [Blog](projects/blog "Créer un blog") _Wip_   -->
 [Slider](projects/slider "Slider")  
-[Weather](projects/weather "Météo") _**wip**_  
+[Weather](projects/weather "Météo")  
+<!-- [Geodata](projects/geodata "Geodata") _**wip**_   -->
 
 
 ## **Les exercices**
