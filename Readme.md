@@ -14,7 +14,9 @@
 ---
 ## **Projet**  
 [To-do list](projects/toDoList "To-do list") ou [accéder à au projet](https://mikl5.github.io/reactTodoList/ "Voir le projet 'To do list'")  
-<!-- [Blog avec React](projects/blog "Créer un blog") **_Wip_**   -->
+<!-- [Blog](projects/blog "Créer un blog") _Wip_   -->
+[Slider](projects/slider "Slider")  
+
 
 ## **Les exercices**
 
