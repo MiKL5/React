@@ -12,15 +12,19 @@
 **C'est une extension React de la syntaxe du langage JavaScript qui permet de structurer le rendu des composants à l'aide d'une syntaxe familière est similaire en apparence au HTML** _[(plus)](Docs/introJSX "En savoir plus")_
 
 ---
-## **Projet**  
+## **Projets**  
 [To-do list](projects/toDoList "To-do list") ou [accéder à au projet](https://mikl5.github.io/reactTodoList/ "Voir le projet 'To do list'")  
 [Slider](projects/slider "Slider")  
 [Weather](projects/weather "Météo")  
-<!-- [Geodata](projects/geodata "Geodata") _**wip**_   -->
+[Geodata](projects/geodata "Geodata")  
+<!-- [Code editor](projects/codeEditor "Editeur de code dnas un navigateur") _**wip**_   -->
+<!-- [Pomodoro](projects/pomodoro "Pomodoro") _**wip**_   -->
+<!-- [Dégradés linéaire](projects/linearGradient "Application de dégradés linéaire") _**wip**_   -->
+<!-- [Player audio](projects/audioPlayer "Lecteur audio") _**wip**_   -->
 
 ## À propos de React
 
-### **Rappel de Javascript modèrne**
+### **Rappel de JavaScript moderne**
 
 1. ['Let' et 'const'](rappel_JS_modern/01_Let_et_const/ "Let et Const")  
 1. [Fonction classique vs fléchée](rappel_JS_modern/02_FonctionsFléchéesFonctionsClassiques/ "fonction classique vs fléchée")  
@@ -79,7 +83,7 @@
 23. Créer le 'Dark-light-mode'  
 23. [Installer 'Redux'](Docs/Redux "Redux")  
 23. Créer le store  
-23. 'useSelect'  
+23. Le hook `useSelect`  
 23. Créer un 'reducer'  
 23. Le 'payload' avec 'dispatch'  
 23. Combiner plusieurs reducers  
