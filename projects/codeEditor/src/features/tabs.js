@@ -9,7 +9,7 @@ const initialState = [
       buttonContent: "HTML",
       code: `<div>
       <h1>Éditeur de code avec React</h1>
-      <p>Codez directement sur le navigateur.</p>
+      <p>Vous pouvez codez ici.</p>
       <div>
       `
     },
