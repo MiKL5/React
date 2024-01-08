@@ -1,4 +1,4 @@
-# Documentation<img align= "right" src="./../src/images/React-icon.svg" alt="React" title="framework React" widht="auto" height="64px"> 
+# Documentation<img align= "right" src="../src/images/React-icon.svg" alt="React" title="framework React" widht="auto" height="64px"> 
 
 1. [Javascript Syntaxe eXtension](introJSX)
 

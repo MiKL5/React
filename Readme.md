@@ -13,11 +13,11 @@
 
 ---
 ## **Projets**  
-[To-do list](projects/toDoList "To-do list") ou [accéder à au projet](https://mikl5.github.io/reactTodoList/ "Voir le projet 'To do list'")  
+[To-do list](projects/toDoList "To-do list") ou [voir le projet](https://mikl5.github.io/reactTodoList/ "Voir le projet 'To do list'")  
 [Slider](projects/slider "Slider")  
 [Weather](projects/weather "Météo")  
 [Geodata](projects/geodata "Geodata")  
-<!-- [Code editor](projects/codeEditor "Editeur de code dnas un navigateur") _**wip**_   -->
+[Code editor](projects/codeEditor "Editeur de code basic dans un navigateur")  
 <!-- [Pomodoro](projects/pomodoro "Pomodoro") _**wip**_   -->
 <!-- [Dégradés linéaire](projects/linearGradient "Application de dégradés linéaire") _**wip**_   -->
 <!-- [Player audio](projects/audioPlayer "Lecteur audio") _**wip**_   -->
@@ -40,7 +40,7 @@
 8. [Explications](Docs/02_explanations/ "Explications")  
 8. [C'est quoi JSX ?](bases_react/03_c_est_quoi_JSX/ "Qu'est-ce que JSX ?")  
 8. Créer un composant  
-8. Découverte de useState ······> Les données d'un composant  
+8. Découverte de 'useState' ······> Les données d'un composant  
 8. Modifier le state ······> Modifier les données d'un composant  
 8. Les 'props' ······> Les propriétés  
 8. Remonter le state  
