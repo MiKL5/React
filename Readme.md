@@ -41,8 +41,8 @@
 8. [C'est quoi JSX ?](bases_react/03_c_est_quoi_JSX/ "Qu'est-ce que JSX ?")  
 8. Créer un composant  
 8. Découverte de 'useState' ······> Les données d'un composant  
-8. Modifier le state ·······················> Modifier les données d'un composant  
-8. Les 'props' ··································> Les propriétés  
+8. Modifier le state ······················> Modifier les données d'un composant  
+8. Les 'props' ······························> Les propriétés  
 8. Remonter le state  
 8. Utiliser le CSS  
 8. Utiliser les images  
