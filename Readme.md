@@ -1,6 +1,7 @@
 # **React** <img align="right" src="src/images/React-icon.svg" alt="React" title="framework React" widht="auto" height="64px">
 > ### **C'est quoi React**
-> Cette librairie est très populaire et à prix tellement d'ampleur qu'elle est devenue aussi importante qu'un framework.  Une librairie résout une problèmatique alorrs qu'un framework est un cadre de travail complet qui généralement résout plusieurs problèmes. C'est la librarie Javascript le plus populaire.  
+> Cette librairie est très populaire et à prix tellement d'ampleur qu'elle est devenue aussi importante qu'un framework.  
+  Une librairie résout une problématique alors qu'un framework est un cadre de travail complet qui généralement résout plusieurs problèmes. C'est la librairie JavaScript le plus populaire.  
 > Elle sert à créer des interfaces utilisateurs avec des composants autonomes qui maintiennent leur propre état.
 > React permet de créer des applications Web.
 >  
@@ -19,7 +20,7 @@
 [Geodata](projects/geodata "Geodata")  
 [Code editor](projects/codeEditor "Editeur de code basic dans un navigateur")  
 [Pomodoro](projects/pomodoro "Pomodoro")  
-<!-- [Dégradés linéaire](projects/linearGradient "Application de dégradés linéaire") _**wip**_   -->
+<!-- [Dégradés linéaire](projects/gradientMaker "Application de dégradés linéaire") _**wip**_   -->
 <!-- [Player audio](projects/audioPlayer "Lecteur audio") _**wip**_   -->
 
 ## À propos de React
