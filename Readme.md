@@ -13,12 +13,12 @@
 
 ---
 ## **Projets**  
-[To-do list](projects/toDoList "To-do list") ou [voir le projet](https://mikl5.github.io/reactTodoList/ "Voir le projet 'To do list'")  
+[To-do list](projects/toDoList "To-do list") ou [voir le projet](https://mikl5.github.io/reactTodoList "Voir le projet 'To do list'")  
 [Slider](projects/slider "Slider")  
 [Weather](projects/weather "Météo")  
 [Geodata](projects/geodata "Geodata")  
 [Code editor](projects/codeEditor "Editeur de code basic dans un navigateur")  
-<!-- [Pomodoro](projects/pomodoro "Pomodoro") _**wip**_   -->
+[Pomodoro](projects/pomodoro "Pomodoro")  
 <!-- [Dégradés linéaire](projects/linearGradient "Application de dégradés linéaire") _**wip**_   -->
 <!-- [Player audio](projects/audioPlayer "Lecteur audio") _**wip**_   -->
 
@@ -26,19 +26,19 @@
 
 ### **Rappel de JavaScript moderne**
 
-1. ['Let' et 'const'](rappel_JS_modern/01_Let_et_const/ "Let et Const")  
-1. [Fonction classique vs fléchée](rappel_JS_modern/02_FonctionsFléchéesFonctionsClassiques/ "fonction classique vs fléchée")  
-1. ['Spread' et 'Rest'](rappel_JS_modern/03_Spread_Et_Rest/ "'Spread' et 'Rest'")  
-1. [Fonction pure](rappel_JS_modern/04_fonctions_pures/ "Fonction pure")  
-1. [Fonction d'ordre supérieur](rappel_JS_modern/05_fonctions_d_ordre_superieur/ "Fonction d'ordre supérieur")  
-1. [Fonction d'ordre supérieur et tableau](rappel_JS_modern/06_fonctions_d_ordre_superieur_et_tableau/ "Fonction d'ordre supérieur")  
-1. [Destructuring](rappel_JS_modern/07_destructuring/ "Destructuring")  
+1. ['Let' et 'const'](rappel_JS_modern/01_Let_et_const "Let et Const")  
+1. [Fonction classique vs fléchée](rappel_JS_modern/02_FonctionsFléchéesFonctionsClassiques "fonction classique vs fléchée")  
+1. ['Spread' et 'Rest'](rappel_JS_modern/03_Spread_Et_Rest "'Spread' et 'Rest'")  
+1. [Fonction pure](rappel_JS_modern/04_fonctions_pures "Fonction pure")  
+1. [Fonction d'ordre supérieur](rappel_JS_modern/05_fonctions_d_ordre_superieur "Fonction d'ordre supérieur")  
+2. [Fonction d'ordre supérieur et tableau](rappel_JS_modern/06_fonctions_d_ordre_superieur_et_tableau "Fonction d'ordre supérieur")  
+3. [Destructuring](rappel_JS_modern/07_destructuring "Destructuring")  
 
 ### **Les bases de React**  
 
-8. [Mettre en place une web app](bases_react/01_set_up_a_web_app/ "Mettre en place une web app")  
-8. [Explications](Docs/02_explanations/ "Explications")  
-8. [C'est quoi JSX ?](bases_react/03_c_est_quoi_JSX/ "Qu'est-ce que JSX ?")  
+8. [Mettre en place une web app](bases_react/01_set_up_a_web_app "Mettre en place une web app")  
+8. [Explications](Docs/02_explanations "Explications")  
+8. [C'est quoi JSX ?](bases_react/03_c_est_quoi_JSX "Qu'est-ce que JSX ?")  
 8. Créer un composant  
 8. Découverte de 'useState' ······> Les données d'un composant  
 8. Modifier le state ······················> Modifier les données d'un composant  
@@ -54,7 +54,7 @@
 
 ### **React dans le détail**
 
-23. [Les 2 règles des hooks](Docs/reglesDesHooks/ "Les règles des hooks")
+23. [Les 2 règles des hooks](Docs/reglesDesHooks "Les règles des hooks")
 23. Le hook 'useEffect'  
 23. Appel à une api avec 'useEffect'  
 23. Utiliser 'setInterval'  
