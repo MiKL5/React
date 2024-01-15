@@ -20,7 +20,7 @@
 [Geodata](projects/geodata "Geodata")  
 [Code editor](projects/codeEditor "Editeur de code basic dans un navigateur")  
 [Pomodoro](projects/pomodoro "Pomodoro")  
-[Dégradés linéaire](projects/gradientMaker "Application de dégradés linéaire")  
+[Générateur de dégradés linéaire](projects/gradientMaker "Application de dégradés linéaire")  
 <!-- [Player audio](projects/audioPlayer "Lecteur audio")   -->
 
 ## À propos de React
