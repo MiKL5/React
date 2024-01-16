@@ -16,9 +16,9 @@
 ## **Projets**  
 [To-do list](projects/toDoList "To-do list") ou [voir le projet](https://mikl5.github.io/reactTodoList "Voir le projet 'To do list'")  
 [Slider](projects/slider "Slider")  
-[Weather](projects/weather "Météo")  
+[Météo](projects/weather "Météo")  
 [Geodata](projects/geodata "Geodata")  
-[Code editor](projects/codeEditor "Editeur de code basic dans un navigateur")  
+[Éditeur de code](projects/codeEditor "Editeur de code basic dans un navigateur")  
 [Pomodoro](projects/pomodoro "Pomodoro")  
 [Générateur de dégradés linéaire](projects/gradientMaker "Application de dégradés linéaire")  
 <!-- [Player audio](projects/audioPlayer "Lecteur audio")   -->
