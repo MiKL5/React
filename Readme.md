@@ -8,7 +8,7 @@
 > ### **Qu'est-ce q'une application web**
 > C'est un site avec beaucoup de fonctionnalités qui nous donnent l'impression d'utiliser une application mobile, car il n'y a pas beaucoup de temps de chargement entre les pages, vu que tout se charge dès le début.
 
-## [Qu'est ce que JSX ?](Docs/introJSX "Introduction à JSX")  
+## [Qu'est-ce que JSX ?](Docs/introJSX "Introduction à JSX")  
 
 **C'est une extension React de la syntaxe du langage JavaScript qui permet de structurer le rendu des composants à l'aide d'une syntaxe familière est similaire en apparence au HTML** _[(plus)](Docs/introJSX "En savoir plus")_
 
@@ -22,6 +22,7 @@
 [Pomodoro](projects/pomodoro "Pomodoro")  
 [Générateur de dégradés linéaire](projects/gradientMaker "Application de dégradés linéaire")  
 <!-- [Player audio](projects/audioPlayer "Lecteur audio")   -->
+<!-- [Site e-commerce](projects/ecommerce "Site e-commerce basique")   -->
 
 ## À propos de React
 
@@ -67,7 +68,7 @@
 23. Ne jamais changer le 'state' dans un tableau ou un objet avec React  
 23. Comprendre 'props.children'  
 23. utiliser 'usememo' et 'reactmemo'  
-23. Compléter le tout avec useCallback  
+23. Compléter le tout avec 'useCallback'  
 23. Créer un hook personnalisé  
 23. Créer une fenêtre modale  
 23. Créer un accordéon  
