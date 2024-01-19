@@ -14,7 +14,7 @@
 
 ---
 ## **Projets**  
-[To-do list](projects/toDoList "To-do list") ou [voir le projet](https://mikl5.github.com/React/projects/overviewOfProjects/toDoList "Voir le projet 'To do list'")  
+[To-do list](projects/toDoList "To-do list") ou [voir le projet](https://mikl5.github.io/React/projects/overviewOfProjects/toDoList "Voir le projet 'To do list'")  
 [Slider](projects/slider "Slider")  
 [Météo](projects/weather "Météo")  
 [Geodata](projects/geodata "Geodata")  
