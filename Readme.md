@@ -1,4 +1,4 @@
-# **React** <a href="docs"><img align="right" src="src/images/React-icon.svg" alt="React" title="framework React" widht="auto" height="64px"></a>
+# **React** <a href="Docs"><img align="right" src="src/images/React-icon.svg" alt="React" title="framework React" widht="auto" height="64px"></a>
 
 > <h3 align="center"> C'est une librairie est très populaire, devenue aussi importante qu'un framework.<br>
 > Elle sert à créer des interfaces utilisateurs avec des composants autonomes qui maintiennent leur propre état.<br><br>
