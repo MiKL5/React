@@ -1,4 +1,4 @@
-# **Créer la navigation**  
+# **Créer la navigation**<a href="../"><img align="right" src="../../src/images/React-icon.svg" alt="React" height="64px"></a>
 
 React-router-dom permet de gérer les liens grâce au composant Link.  
 ```jsx

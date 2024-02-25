@@ -1,4 +1,4 @@
-# **Les routes imbriquées**
+# **Les routes imbriquées**<a href="../"><img align="right" src="../../src/images/React-icon.svg" alt="React" height="64px"></a>
 
 Il s'agit d'une sous navigation vers des sous composants.  
 Ça incombe d'avoir une balise `<nav>` dans ledit composant.

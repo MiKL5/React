@@ -1,4 +1,4 @@
-# **NavLink**
+# **NavLink**<a href="../"><img align="right" src="../../src/images/React-icon.svg" alt="React" height="64px"></a>
 
 Il prend aussi la props `to` mais aussi, `className`, `style`, etc.
 

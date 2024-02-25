@@ -1,7 +1,7 @@
-# Documentation <a href="../"><img align= "right" src="../src/images/React-icon.svg" alt="React" title="framework React" widht="auto" height="64px"></a>
+# Documentation <a href="../"><img align= "right" src="../src/images/React-icon.svg" alt="React" height="64px"></a>
 > ### **Qu'est-ce que React**
 > Cette librairie est très populaire, devenue aussi importante qu'un framework.  
-  Une librairie résout une problématique alors qu'un framework est un cadre de travail complet qui généralement résout plusieurs problèmes. C'est la librairie JavaScript le plus populaire.  
+  Une librairie résout une problématique alors qu'un framework est un cadre de travail complet qui généralement résout plusieurs problèmes. C'est la librairie JavaScript la plus populaire.  
 > Elle sert à créer des interfaces utilisateurs avec des composants autonomes qui maintiennent leur propre état.
 > React permet de créer des applications Web.
 >  

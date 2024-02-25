@@ -1,4 +1,4 @@
-## Redux thunk
+## Redux thunk<a href="../"><img align="right" src="../../src/images/React-icon.svg" alt="React" height="64px"></a>
 
 Est un middleware prêt à l'emploi qui dans le dispatch d'exécuter une fonction asynchrone.  
 Il permet de recevoir des données qui iront au store.  

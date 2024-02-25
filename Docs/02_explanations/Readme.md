@@ -1,4 +1,4 @@
-# **Quelques explications**
+# **Quelques explications** <a href="../"><img align="right" src="../../src/images/React-icon.svg" alt="React" height="64px"></a>
 
 ### **À propos de '_package.json_'**
 Il contient les commandes.  
@@ -20,12 +20,12 @@ Toute l'application React apparaît dans la div 'root' d'index.html.
 C'est une '**SPA**' **S**ingle **p**age **a**pplication.
 
 * Les avantages :  
-    * pas de latence entre les pages
-        * tout est préchargé
-            * il faut chercher / montrer des composants
+    * Pas de latence entre les pages ;
+    * Tout est préchargé ;
+    * Il faut chercher / montrer des composants.
 
-Les images vont soit dans 'public' sont dans src.  
-Le fichier '***manifest.json***' sert aux progressive webapp, c'est à dire fonctionner sur mobile est navigateur.
+Les images vont soit dans 'public' sont dans 'src'.  
+Le fichier '***manifest.json***' sert aux progressive webapp, c'est-à-dire fonctionner sur mobile est navigateur.
 Les '***robots.txt***' pour les pages que l'on ignore ou non.
 
 ### **À propos du dossier source 'src'**
@@ -33,5 +33,5 @@ Les '***robots.txt***' pour les pages que l'on ignore ou non.
 C'est ici qu'on développe.
 
 Le fichier '***App.js***' contient les composants et les éléments importés qui sont fournis à la div.  
-'L'**index.js**' render le contenu dans la div root.  
+'L'**index.js**' render le contenu dans la "`<div>` root".  
 'L'**index.css**' est le css global.

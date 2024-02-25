@@ -1,10 +1,10 @@
-# **Règles des hooks (crochets)**
+# **Règles des hooks (crochets)**<a href="../"><img align="right" src="../../src/images/React-icon.svg" alt="React" height="64px"></a>
 
 Deux règles :
 1. Il faut tout le temps les écrire à la racine de la fonction ;
     * c'est-à-dire tout en haut,  
         * jamais imbriqué dans des blocs,  
-        * jamais dans des if / else,
+        * jamais dans des '`if`/`else`',
         * jamais dans des boucles, et cætera.  
           
    Parce que React cherche les hook pour mettre à jour les composants, et cætera.

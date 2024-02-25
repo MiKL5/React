@@ -1,4 +1,4 @@
-# **À propos de de l'API de contexte**
+# **À propos de de l'API de contexte**<a href="../"><img align="right" src="../../src/images/React-icon.svg" alt="React" height="64px"></a>
 
 Grâce à l'API de contexte on va importer le.s contexte.s ou on veut, dans des segments, des sections, ces catégories du code. Même si elle est assez petite et qu'elle n'a que 4 imbrications ou 3 enfants, ça éviter l'utilisation des pops.
 

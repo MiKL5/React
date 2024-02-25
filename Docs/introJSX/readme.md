@@ -1,4 +1,4 @@
-# **Introduction à JSX**
+# **Introduction à JSX**<a href="../"><img align="right" src="../../src/images/React-icon.svg" alt="React" height="64px"></a>
 
 ### **JavaScript Syntax Extension**, parfois appelé JavaScript XML.  
 ---

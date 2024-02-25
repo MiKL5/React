@@ -1,4 +1,4 @@
-# **Middleware**
+# **Middleware**<a href="../"><img align="right" src="../../src/images/React-icon.svg" alt="React" height="64px"></a>
 
 ## Le _middleware_ est entre l'exécution d'une méthode _dispatch_ est l'envoi de ce dernier. Il se déclenche quand quelque chose est envoyé.  
 
@@ -54,4 +54,6 @@ const customMiddleware = store => next => action => {
 ```jsx
     next(actionModif) // donne une nouvelle action
 ```
-<img alt="Middleware" title="Middleware" align="center" src="./../../src/Docs/reduxMiddelware.png">
+
+<div align="center"><br>
+<img alt="Middleware" align="center" src="./../../src/Docs/reduxMiddelware.png">

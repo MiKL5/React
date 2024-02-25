@@ -1,4 +1,4 @@
-# **React** <a href="Docs"><img align="right" src="src/images/React-icon.svg" alt="React" title="framework React" widht="auto" height="64px"></a>
+# **React** <a href="Docs"><img align="right" src="src/images/React-icon.svg" alt="React" height="64px"></a>
 
 > <h3 align="center"> C'est une librairie est très populaire, devenue aussi importante qu'un framework.<br>
 > Elle sert à créer des interfaces utilisateurs avec des composants autonomes qui maintiennent leur propre état.<br><br>
@@ -15,8 +15,6 @@
 [Générateur de dégradés linéaire](projects/gradientMaker "Application de dégradés linéaire")  
 <!-- [Player audio](projects/audioPlayer "Lecteur audio") <kbd>_soon_</kbd>  -->
 <!-- [Site e-commerce](projects/ecommerce "Site e-commerce basique")   -->
-
-<br>
 
 ___
 # **React Native** <a href="ReactNative/Docs"><img align="right" src="src/images/react-native.png" alt="React" title="framework React" widht="auto" height="64px"></a>

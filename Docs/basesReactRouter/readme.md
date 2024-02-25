@@ -1,4 +1,4 @@
-# **React router**
+# **React router**<a href="../"><img align="right" src="../../src/images/React-icon.svg" alt="React" height="64px"></a>
 
 ## **Installer _'React-router'_ avec la commande suivante :**
 
