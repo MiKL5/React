@@ -1,4 +1,4 @@
-# **Différences entre React et React Native**
+# **Différences entre React et React Native** <a href="../"><img align="right" src="../../../src/images/react-native.png" alt="React" height="64px"></a>
 
 La logique est la même, on importe toujours React `import React from "React";` car React Native fonctionne grâce à la librairie React.
 

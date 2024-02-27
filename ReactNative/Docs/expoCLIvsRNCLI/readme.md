@@ -1,4 +1,4 @@
-# **L'outil Expo CLI vs React Native CLI**
+# **L'outil Expo CLI vs React Native CLI** <a href="../"><img align="right" src="../../../src/images/react-native.png" alt="React" height="64px"></a>
 
 ## **L'outil Expo CLI**
 

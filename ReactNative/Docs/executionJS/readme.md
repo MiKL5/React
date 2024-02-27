@@ -1,4 +1,4 @@
-# **Exécution du JavaScript**
+# **Exécution du JavaScript** <a href="../"><img align="right" src="../../../src/images/react-native.png" alt="React" height="64px"></a>
 
 Les composants (UI) `<View>`, `<Text>` seront compilés pour générer l'interface utilisateur.  
 
