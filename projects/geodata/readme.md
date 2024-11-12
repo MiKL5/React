@@ -1,7 +1,7 @@
-# **Geodata** <img align="right" src="../../src/images/React-icon.svg" alt="React" title="framework React" widht="auto" height="64px">
+# **Geodata** <a href="../../"><img align="right" src="../../src/images/React-icon.svg" alt="React" title="framework React" widht="auto" height="64px"></a>
 
 Geodata est une webapp sur les pays européens.
-  
+
 En cliquant sur les drapeux une fenêtre modale affiche :
 * La ou les langues parlése ; 
 * La capitale ;
